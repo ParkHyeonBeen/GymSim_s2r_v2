@@ -1,0 +1,57 @@
+2022-10-03 19:51:51,407 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:52:52,586 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:53:53,896 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:54:55,158 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:55:56,895 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:56:34,920 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:56:47,777 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 131, in model_trainer
+    action = algorithm.eval_action(observation)
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 94, in eval_action
+    action, _ = self.actor(state, deterministic=True)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/ETRI/GymSim_s2r_2/Network/Gaussian_Actor.py", line 124, in forward
+    dist = torch.distributions.Normal(mean, std, validate_args=True)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/distributions/normal.py", line 54, in __init__
+    super(Normal, self).__init__(batch_shape, validate_args=validate_args)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/distributions/distribution.py", line 54, in __init__
+    if not valid.all():
+KeyboardInterrupt
+

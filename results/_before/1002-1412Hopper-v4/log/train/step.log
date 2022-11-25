@@ -1,0 +1,266 @@
+2022-10-02 14:12:34,615 - INFO - Rank 0 | Global Episode: 1 | Episode Reward: 3549.86 | Local step: 1000 | Global worker step: 1000 | Update step: 0 | Worker id: 0 | Elapsed time: 00:00:05
+2022-10-02 14:12:40,139 - INFO - Rank 0 | Global Episode: 2 | Episode Reward: 3552.75 | Local step: 1000 | Global worker step: 2000 | Update step: 0 | Worker id: 1 | Elapsed time: 00:00:10
+2022-10-02 14:12:42,535 - INFO - Rank 0 | Global Episode: 3 | Episode Reward: 3564.75 | Local step: 1000 | Global worker step: 3000 | Update step: 0 | Worker id: 1 | Elapsed time: 00:00:13
+2022-10-02 14:12:44,851 - INFO - Rank 0 | Global Episode: 4 | Episode Reward: 3405.88 | Local step: 907 | Global worker step: 3907 | Update step: 0 | Worker id: 1 | Elapsed time: 00:00:15
+2022-10-02 14:13:21,969 - INFO - Rank 0 | Global Episode: 5 | Episode Reward: 3566.75 | Local step: 1000 | Global worker step: 4907 | Update step: 704 | Worker id: 2 | Elapsed time: 00:00:52
+2022-10-02 14:14:24,748 - INFO - Rank 0 | Global Episode: 6 | Episode Reward: 3581.75 | Local step: 1000 | Global worker step: 5907 | Update step: 1998 | Worker id: 1 | Elapsed time: 00:01:55
+2022-10-02 14:14:35,796 - ERROR - Rank 0 | Episode Reward: 3566.23 | Success cnt: 10 | Local Step: 1000 | Global Episode: 6 | Global Worker Step: 5907
+2022-10-02 14:14:58,850 - INFO - Rank 0 | Global Episode: 7 | Episode Reward: 3561.29 | Local step: 1000 | Global worker step: 6907 | Update step: 2948 | Worker id: 2 | Elapsed time: 00:02:29
+2022-10-02 14:16:00,456 - INFO - Rank 0 | Global Episode: 8 | Episode Reward: 3582.68 | Local step: 1000 | Global worker step: 7907 | Update step: 4870 | Worker id: 1 | Elapsed time: 00:03:31
+2022-10-02 14:16:11,989 - INFO - Rank 0 | Global Episode: 9 | Episode Reward: 3570.16 | Local step: 1000 | Global worker step: 8907 | Update step: 5231 | Worker id: 0 | Elapsed time: 00:03:42
+2022-10-02 14:16:35,018 - INFO - Rank 0 | Global Episode: 10 | Episode Reward: 3556.70 | Local step: 1000 | Global worker step: 9907 | Update step: 5710 | Worker id: 2 | Elapsed time: 00:04:05
+2022-10-02 14:17:35,913 - INFO - Rank 0 | Global Episode: 11 | Episode Reward: 3564.05 | Local step: 1000 | Global worker step: 10907 | Update step: 6989 | Worker id: 1 | Elapsed time: 00:05:06
+2022-10-02 14:18:10,305 - INFO - Rank 0 | Global Episode: 12 | Episode Reward: 3577.54 | Local step: 1000 | Global worker step: 11907 | Update step: 7711 | Worker id: 2 | Elapsed time: 00:05:41
+2022-10-02 14:18:11,025 - ERROR - Rank 0 | Episode Reward: 3561.45 | Success cnt: 10 | Local Step: 1000 | Global Episode: 12 | Global Worker Step: 11907
+2022-10-02 14:19:11,657 - INFO - Rank 0 | Global Episode: 13 | Episode Reward: 3587.68 | Local step: 1000 | Global worker step: 12907 | Update step: 9616 | Worker id: 1 | Elapsed time: 00:06:42
+2022-10-02 14:19:46,554 - INFO - Rank 0 | Global Episode: 14 | Episode Reward: 3558.78 | Local step: 1000 | Global worker step: 13907 | Update step: 10707 | Worker id: 2 | Elapsed time: 00:07:17
+2022-10-02 14:19:47,267 - INFO - Rank 0 | Global Episode: 15 | Episode Reward: 3575.05 | Local step: 1000 | Global worker step: 14907 | Update step: 10729 | Worker id: 0 | Elapsed time: 00:07:17
+2022-10-02 14:20:46,724 - INFO - Rank 0 | Global Episode: 16 | Episode Reward: 3553.27 | Local step: 1000 | Global worker step: 15907 | Update step: 11980 | Worker id: 1 | Elapsed time: 00:08:17
+2022-10-02 14:21:21,975 - INFO - Rank 0 | Global Episode: 17 | Episode Reward: 3581.01 | Local step: 1000 | Global worker step: 16907 | Update step: 12717 | Worker id: 2 | Elapsed time: 00:08:52
+2022-10-02 14:21:46,091 - ERROR - Rank 0 | Episode Reward: 3578.56 | Success cnt: 10 | Local Step: 1000 | Global Episode: 17 | Global Worker Step: 16907
+2022-10-02 14:22:22,429 - INFO - Rank 0 | Global Episode: 18 | Episode Reward: 3544.83 | Local step: 1000 | Global worker step: 17907 | Update step: 14357 | Worker id: 1 | Elapsed time: 00:09:53
+2022-10-02 14:22:57,968 - INFO - Rank 0 | Global Episode: 19 | Episode Reward: 3567.63 | Local step: 1000 | Global worker step: 18907 | Update step: 15468 | Worker id: 2 | Elapsed time: 00:10:28
+2022-10-02 14:23:22,232 - INFO - Rank 0 | Global Episode: 20 | Episode Reward: 3593.75 | Local step: 1000 | Global worker step: 19907 | Update step: 16226 | Worker id: 0 | Elapsed time: 00:10:52
+2022-10-02 14:23:58,651 - INFO - Rank 0 | Global Episode: 21 | Episode Reward: 3556.99 | Local step: 1000 | Global worker step: 20907 | Update step: 16984 | Worker id: 1 | Elapsed time: 00:11:29
+2022-10-02 14:24:33,700 - INFO - Rank 0 | Global Episode: 22 | Episode Reward: 3560.70 | Local step: 1000 | Global worker step: 21907 | Update step: 17717 | Worker id: 2 | Elapsed time: 00:12:04
+2022-10-02 14:25:21,851 - ERROR - Rank 0 | Episode Reward: 3567.38 | Success cnt: 10 | Local Step: 1000 | Global Episode: 22 | Global Worker Step: 21907
+2022-10-02 14:25:34,009 - INFO - Rank 0 | Global Episode: 23 | Episode Reward: 3584.87 | Local step: 1000 | Global worker step: 22907 | Update step: 19103 | Worker id: 1 | Elapsed time: 00:13:04
+2022-10-02 14:26:09,811 - INFO - Rank 0 | Global Episode: 24 | Episode Reward: 3573.81 | Local step: 1000 | Global worker step: 23907 | Update step: 20219 | Worker id: 2 | Elapsed time: 00:13:40
+2022-10-02 14:26:58,259 - INFO - Rank 0 | Global Episode: 25 | Episode Reward: 3582.12 | Local step: 1000 | Global worker step: 24907 | Update step: 21735 | Worker id: 0 | Elapsed time: 00:14:28
+2022-10-02 14:27:09,689 - INFO - Rank 0 | Global Episode: 26 | Episode Reward: 3572.61 | Local step: 1000 | Global worker step: 25907 | Update step: 21977 | Worker id: 1 | Elapsed time: 00:14:40
+2022-10-02 14:27:45,145 - INFO - Rank 0 | Global Episode: 27 | Episode Reward: 3576.18 | Local step: 1000 | Global worker step: 26907 | Update step: 22721 | Worker id: 2 | Elapsed time: 00:15:15
+2022-10-02 14:28:45,057 - INFO - Rank 0 | Global Episode: 28 | Episode Reward: 3553.43 | Local step: 1000 | Global worker step: 27907 | Update step: 23977 | Worker id: 1 | Elapsed time: 00:16:15
+2022-10-02 14:28:58,000 - ERROR - Rank 0 | Episode Reward: 3570.59 | Success cnt: 10 | Local Step: 1000 | Global Episode: 28 | Global Worker Step: 27907
+2022-10-02 14:29:20,803 - INFO - Rank 0 | Global Episode: 29 | Episode Reward: 3567.41 | Local step: 1000 | Global worker step: 28907 | Update step: 24957 | Worker id: 2 | Elapsed time: 00:16:51
+2022-10-02 14:30:21,243 - INFO - Rank 0 | Global Episode: 30 | Episode Reward: 3570.92 | Local step: 1000 | Global worker step: 29907 | Update step: 26841 | Worker id: 1 | Elapsed time: 00:17:51
+2022-10-02 14:30:34,207 - INFO - Rank 0 | Global Episode: 31 | Episode Reward: 3554.24 | Local step: 1000 | Global worker step: 30907 | Update step: 27249 | Worker id: 0 | Elapsed time: 00:18:04
+2022-10-02 14:30:56,691 - INFO - Rank 0 | Global Episode: 32 | Episode Reward: 3537.45 | Local step: 1000 | Global worker step: 31907 | Update step: 27722 | Worker id: 2 | Elapsed time: 00:18:27
+2022-10-02 14:31:56,123 - INFO - Rank 0 | Global Episode: 33 | Episode Reward: 3576.96 | Local step: 1000 | Global worker step: 32907 | Update step: 28969 | Worker id: 1 | Elapsed time: 00:19:26
+2022-10-02 14:32:32,699 - INFO - Rank 0 | Global Episode: 34 | Episode Reward: 3598.12 | Local step: 1000 | Global worker step: 33907 | Update step: 29729 | Worker id: 2 | Elapsed time: 00:20:03
+2022-10-02 14:32:34,116 - ERROR - Rank 0 | Episode Reward: 3570.30 | Success cnt: 10 | Local Step: 1000 | Global Episode: 34 | Global Worker Step: 33907
+2022-10-02 14:33:32,050 - INFO - Rank 0 | Global Episode: 35 | Episode Reward: 3570.35 | Local step: 1000 | Global worker step: 34907 | Update step: 31563 | Worker id: 1 | Elapsed time: 00:21:02
+2022-10-02 14:34:08,949 - INFO - Rank 0 | Global Episode: 36 | Episode Reward: 3577.34 | Local step: 1000 | Global worker step: 35907 | Update step: 32722 | Worker id: 2 | Elapsed time: 00:21:39
+2022-10-02 14:34:10,133 - INFO - Rank 0 | Global Episode: 37 | Episode Reward: 3559.27 | Local step: 1000 | Global worker step: 36907 | Update step: 32759 | Worker id: 0 | Elapsed time: 00:21:40
+2022-10-02 14:35:07,186 - INFO - Rank 0 | Global Episode: 38 | Episode Reward: 3569.58 | Local step: 1000 | Global worker step: 37907 | Update step: 33957 | Worker id: 1 | Elapsed time: 00:22:37
+2022-10-02 14:35:44,488 - INFO - Rank 0 | Global Episode: 39 | Episode Reward: 3584.46 | Local step: 1000 | Global worker step: 38907 | Update step: 34736 | Worker id: 2 | Elapsed time: 00:23:15
+2022-10-02 14:36:06,237 - ERROR - Rank 0 | Episode Reward: 3496.27 | Success cnt: 9 | Local Step: 1000 | Global Episode: 39 | Global Worker Step: 38907
+2022-10-02 14:36:43,177 - INFO - Rank 0 | Global Episode: 40 | Episode Reward: 3552.22 | Local step: 1000 | Global worker step: 39907 | Update step: 36339 | Worker id: 1 | Elapsed time: 00:24:13
+2022-10-02 14:37:20,677 - INFO - Rank 0 | Global Episode: 41 | Episode Reward: 3580.79 | Local step: 1000 | Global worker step: 40907 | Update step: 37509 | Worker id: 2 | Elapsed time: 00:24:51
+2022-10-02 14:37:42,607 - INFO - Rank 0 | Global Episode: 42 | Episode Reward: 3572.09 | Local step: 1000 | Global worker step: 41907 | Update step: 38193 | Worker id: 0 | Elapsed time: 00:25:13
+2022-10-02 14:37:52,620 - INFO - Rank 0 | Global Episode: 43 | Episode Reward: 2751.76 | Local step: 724 | Global worker step: 42631 | Update step: 38405 | Worker id: 1 | Elapsed time: 00:25:23
+2022-10-02 14:38:56,232 - INFO - Rank 0 | Global Episode: 44 | Episode Reward: 3572.63 | Local step: 1000 | Global worker step: 43631 | Update step: 39738 | Worker id: 2 | Elapsed time: 00:26:26
+2022-10-02 14:39:28,112 - INFO - Rank 0 | Global Episode: 45 | Episode Reward: 3580.12 | Local step: 1000 | Global worker step: 44631 | Update step: 40403 | Worker id: 1 | Elapsed time: 00:26:58
+2022-10-02 14:39:41,046 - ERROR - Rank 0 | Episode Reward: 3576.38 | Success cnt: 10 | Local Step: 1000 | Global Episode: 45 | Global Worker Step: 44631
+2022-10-02 14:40:32,758 - INFO - Rank 0 | Global Episode: 46 | Episode Reward: 3584.24 | Local step: 1000 | Global worker step: 45631 | Update step: 42280 | Worker id: 2 | Elapsed time: 00:28:03
+2022-10-02 14:41:03,886 - INFO - Rank 0 | Global Episode: 47 | Episode Reward: 3552.87 | Local step: 1000 | Global worker step: 46631 | Update step: 43254 | Worker id: 1 | Elapsed time: 00:28:34
+2022-10-02 14:41:17,565 - INFO - Rank 0 | Global Episode: 48 | Episode Reward: 3567.52 | Local step: 1000 | Global worker step: 47631 | Update step: 43681 | Worker id: 0 | Elapsed time: 00:28:48
+2022-10-02 14:42:08,427 - INFO - Rank 0 | Global Episode: 49 | Episode Reward: 3568.02 | Local step: 1000 | Global worker step: 48631 | Update step: 44744 | Worker id: 2 | Elapsed time: 00:29:39
+2022-10-02 14:42:39,671 - INFO - Rank 0 | Global Episode: 50 | Episode Reward: 3569.57 | Local step: 1000 | Global worker step: 49631 | Update step: 45395 | Worker id: 1 | Elapsed time: 00:30:10
+2022-10-02 14:43:16,611 - ERROR - Rank 0 | Episode Reward: 3563.57 | Success cnt: 10 | Local Step: 1000 | Global Episode: 50 | Global Worker Step: 49631
+2022-10-02 14:43:44,974 - INFO - Rank 0 | Global Episode: 51 | Episode Reward: 3578.41 | Local step: 1000 | Global worker step: 50631 | Update step: 47041 | Worker id: 2 | Elapsed time: 00:31:15
+2022-10-02 14:44:15,964 - INFO - Rank 0 | Global Episode: 52 | Episode Reward: 3556.93 | Local step: 1000 | Global worker step: 51631 | Update step: 48004 | Worker id: 1 | Elapsed time: 00:31:46
+2022-10-02 14:44:53,068 - INFO - Rank 0 | Global Episode: 53 | Episode Reward: 3627.10 | Local step: 1000 | Global worker step: 52631 | Update step: 49164 | Worker id: 0 | Elapsed time: 00:32:23
+2022-10-02 14:45:21,165 - INFO - Rank 0 | Global Episode: 54 | Episode Reward: 3558.06 | Local step: 1000 | Global worker step: 53631 | Update step: 49756 | Worker id: 2 | Elapsed time: 00:32:51
+2022-10-02 14:45:51,150 - INFO - Rank 0 | Global Episode: 55 | Episode Reward: 3552.56 | Local step: 1000 | Global worker step: 54631 | Update step: 50384 | Worker id: 1 | Elapsed time: 00:33:21
+2022-10-02 14:46:51,289 - ERROR - Rank 0 | Episode Reward: 3565.11 | Success cnt: 9 | Local Step: 919 | Global Episode: 55 | Global Worker Step: 54631
+2022-10-02 14:46:57,051 - INFO - Rank 0 | Global Episode: 56 | Episode Reward: 3576.82 | Local step: 1000 | Global worker step: 55631 | Update step: 51820 | Worker id: 2 | Elapsed time: 00:34:27
+2022-10-02 14:47:26,710 - INFO - Rank 0 | Global Episode: 57 | Episode Reward: 3588.46 | Local step: 1000 | Global worker step: 56631 | Update step: 52743 | Worker id: 1 | Elapsed time: 00:34:57
+2022-10-02 14:48:27,828 - INFO - Rank 0 | Global Episode: 58 | Episode Reward: 3549.81 | Local step: 1000 | Global worker step: 57631 | Update step: 54649 | Worker id: 0 | Elapsed time: 00:35:58
+2022-10-02 14:48:33,351 - INFO - Rank 0 | Global Episode: 59 | Episode Reward: 3573.56 | Local step: 1000 | Global worker step: 58631 | Update step: 54767 | Worker id: 2 | Elapsed time: 00:36:04
+2022-10-02 14:49:02,064 - INFO - Rank 0 | Global Episode: 60 | Episode Reward: 3571.51 | Local step: 1000 | Global worker step: 59631 | Update step: 55372 | Worker id: 1 | Elapsed time: 00:36:32
+2022-10-02 14:50:09,068 - INFO - Rank 0 | Global Episode: 61 | Episode Reward: 3559.08 | Local step: 1000 | Global worker step: 60631 | Update step: 56773 | Worker id: 2 | Elapsed time: 00:37:39
+2022-10-02 14:50:26,981 - ERROR - Rank 0 | Episode Reward: 3578.19 | Success cnt: 10 | Local Step: 1000 | Global Episode: 61 | Global Worker Step: 60631
+2022-10-02 14:50:37,669 - INFO - Rank 0 | Global Episode: 62 | Episode Reward: 3569.75 | Local step: 1000 | Global worker step: 61631 | Update step: 57479 | Worker id: 1 | Elapsed time: 00:38:08
+2022-10-02 14:51:45,107 - INFO - Rank 0 | Global Episode: 63 | Episode Reward: 3567.86 | Local step: 1000 | Global worker step: 62631 | Update step: 59584 | Worker id: 2 | Elapsed time: 00:39:15
+2022-10-02 14:52:03,392 - INFO - Rank 0 | Global Episode: 64 | Episode Reward: 3598.56 | Local step: 1000 | Global worker step: 63631 | Update step: 60160 | Worker id: 0 | Elapsed time: 00:39:34
+2022-10-02 14:52:12,979 - INFO - Rank 0 | Global Episode: 65 | Episode Reward: 3588.61 | Local step: 1000 | Global worker step: 64631 | Update step: 60361 | Worker id: 1 | Elapsed time: 00:39:43
+2022-10-02 14:53:20,931 - INFO - Rank 0 | Global Episode: 66 | Episode Reward: 3561.03 | Local step: 1000 | Global worker step: 65631 | Update step: 61784 | Worker id: 2 | Elapsed time: 00:40:51
+2022-10-02 14:53:48,391 - INFO - Rank 0 | Global Episode: 67 | Episode Reward: 3603.58 | Local step: 1000 | Global worker step: 66631 | Update step: 62356 | Worker id: 1 | Elapsed time: 00:41:19
+2022-10-02 14:54:03,601 - ERROR - Rank 0 | Episode Reward: 3572.90 | Success cnt: 10 | Local Step: 1000 | Global Episode: 67 | Global Worker Step: 66631
+2022-10-02 14:54:56,992 - INFO - Rank 0 | Global Episode: 68 | Episode Reward: 3586.04 | Local step: 1000 | Global worker step: 67631 | Update step: 64337 | Worker id: 2 | Elapsed time: 00:42:27
+2022-10-02 14:55:24,480 - INFO - Rank 0 | Global Episode: 69 | Episode Reward: 3556.41 | Local step: 1000 | Global worker step: 68631 | Update step: 65197 | Worker id: 1 | Elapsed time: 00:42:55
+2022-10-02 14:55:39,976 - INFO - Rank 0 | Global Episode: 70 | Episode Reward: 3562.48 | Local step: 1000 | Global worker step: 69631 | Update step: 65679 | Worker id: 0 | Elapsed time: 00:43:10
+2022-10-02 14:56:32,970 - INFO - Rank 0 | Global Episode: 71 | Episode Reward: 3556.08 | Local step: 1000 | Global worker step: 70631 | Update step: 66791 | Worker id: 2 | Elapsed time: 00:44:03
+2022-10-02 14:56:59,664 - INFO - Rank 0 | Global Episode: 72 | Episode Reward: 3583.74 | Local step: 1000 | Global worker step: 71631 | Update step: 67348 | Worker id: 1 | Elapsed time: 00:44:30
+2022-10-02 14:57:37,967 - ERROR - Rank 0 | Episode Reward: 3552.71 | Success cnt: 9 | Local Step: 1000 | Global Episode: 72 | Global Worker Step: 71631
+2022-10-02 14:58:09,327 - INFO - Rank 0 | Global Episode: 73 | Episode Reward: 3567.81 | Local step: 1000 | Global worker step: 72631 | Update step: 69123 | Worker id: 2 | Elapsed time: 00:45:40
+2022-10-02 14:58:35,476 - INFO - Rank 0 | Global Episode: 74 | Episode Reward: 3564.40 | Local step: 1000 | Global worker step: 73631 | Update step: 69937 | Worker id: 1 | Elapsed time: 00:46:06
+2022-10-02 14:59:14,113 - INFO - Rank 0 | Global Episode: 75 | Episode Reward: 3573.33 | Local step: 1000 | Global worker step: 74631 | Update step: 71149 | Worker id: 0 | Elapsed time: 00:46:44
+2022-10-02 14:59:44,966 - INFO - Rank 0 | Global Episode: 76 | Episode Reward: 3583.58 | Local step: 1000 | Global worker step: 75631 | Update step: 71799 | Worker id: 2 | Elapsed time: 00:47:15
+2022-10-02 15:00:10,793 - INFO - Rank 0 | Global Episode: 77 | Episode Reward: 3560.22 | Local step: 1000 | Global worker step: 76631 | Update step: 72340 | Worker id: 1 | Elapsed time: 00:47:41
+2022-10-02 15:01:12,861 - ERROR - Rank 0 | Episode Reward: 3569.36 | Success cnt: 10 | Local Step: 1000 | Global Episode: 77 | Global Worker Step: 76631
+2022-10-02 15:01:21,234 - INFO - Rank 0 | Global Episode: 78 | Episode Reward: 3577.67 | Local step: 1000 | Global worker step: 77631 | Update step: 73893 | Worker id: 2 | Elapsed time: 00:48:51
+2022-10-02 15:01:46,629 - INFO - Rank 0 | Global Episode: 79 | Episode Reward: 3550.85 | Local step: 1000 | Global worker step: 78631 | Update step: 74681 | Worker id: 1 | Elapsed time: 00:49:17
+2022-10-02 15:02:49,180 - INFO - Rank 0 | Global Episode: 80 | Episode Reward: 3546.86 | Local step: 1000 | Global worker step: 79631 | Update step: 76632 | Worker id: 0 | Elapsed time: 00:50:19
+2022-10-02 15:02:57,746 - INFO - Rank 0 | Global Episode: 81 | Episode Reward: 3580.04 | Local step: 1000 | Global worker step: 80631 | Update step: 76813 | Worker id: 2 | Elapsed time: 00:50:28
+2022-10-02 15:03:22,304 - INFO - Rank 0 | Global Episode: 82 | Episode Reward: 3582.79 | Local step: 1000 | Global worker step: 81631 | Update step: 77328 | Worker id: 1 | Elapsed time: 00:50:53
+2022-10-02 15:04:33,247 - INFO - Rank 0 | Global Episode: 83 | Episode Reward: 3546.65 | Local step: 1000 | Global worker step: 82631 | Update step: 78817 | Worker id: 2 | Elapsed time: 00:52:03
+2022-10-02 15:04:48,123 - ERROR - Rank 0 | Episode Reward: 3553.53 | Success cnt: 9 | Local Step: 1000 | Global Episode: 83 | Global Worker Step: 82631
+2022-10-02 15:04:57,736 - INFO - Rank 0 | Global Episode: 84 | Episode Reward: 3565.97 | Local step: 1000 | Global worker step: 83631 | Update step: 79425 | Worker id: 1 | Elapsed time: 00:52:28
+2022-10-02 15:06:08,965 - INFO - Rank 0 | Global Episode: 85 | Episode Reward: 3576.07 | Local step: 1000 | Global worker step: 84631 | Update step: 81652 | Worker id: 2 | Elapsed time: 00:53:39
+2022-10-02 15:06:24,276 - INFO - Rank 0 | Global Episode: 86 | Episode Reward: 3551.92 | Local step: 1000 | Global worker step: 85631 | Update step: 82130 | Worker id: 0 | Elapsed time: 00:53:55
+2022-10-02 15:06:33,650 - INFO - Rank 0 | Global Episode: 87 | Episode Reward: 3552.72 | Local step: 1000 | Global worker step: 86631 | Update step: 82328 | Worker id: 1 | Elapsed time: 00:54:04
+2022-10-02 15:07:44,189 - INFO - Rank 0 | Global Episode: 88 | Episode Reward: 3542.24 | Local step: 1000 | Global worker step: 87631 | Update step: 83816 | Worker id: 2 | Elapsed time: 00:55:14
+2022-10-02 15:08:08,682 - INFO - Rank 0 | Global Episode: 89 | Episode Reward: 3560.66 | Local step: 1000 | Global worker step: 88631 | Update step: 84325 | Worker id: 1 | Elapsed time: 00:55:39
+2022-10-02 15:08:21,106 - ERROR - Rank 0 | Episode Reward: 3499.35 | Success cnt: 9 | Local Step: 1000 | Global Episode: 89 | Global Worker Step: 88631
+2022-10-02 15:09:20,224 - INFO - Rank 0 | Global Episode: 90 | Episode Reward: 2859.13 | Local step: 745 | Global worker step: 89376 | Update step: 86421 | Worker id: 1 | Elapsed time: 00:56:50
+2022-10-02 15:09:20,562 - INFO - Rank 0 | Global Episode: 91 | Episode Reward: 3570.62 | Local step: 1000 | Global worker step: 90376 | Update step: 86432 | Worker id: 2 | Elapsed time: 00:56:51
+2022-10-02 15:09:57,700 - INFO - Rank 0 | Global Episode: 92 | Episode Reward: 3552.38 | Local step: 1000 | Global worker step: 91376 | Update step: 87594 | Worker id: 0 | Elapsed time: 00:57:28
+2022-10-02 15:10:55,731 - INFO - Rank 0 | Global Episode: 93 | Episode Reward: 3583.69 | Local step: 1000 | Global worker step: 92376 | Update step: 88808 | Worker id: 1 | Elapsed time: 00:58:26
+2022-10-02 15:10:56,487 - INFO - Rank 0 | Global Episode: 94 | Episode Reward: 3583.46 | Local step: 1000 | Global worker step: 93376 | Update step: 88823 | Worker id: 2 | Elapsed time: 00:58:27
+2022-10-02 15:11:55,014 - ERROR - Rank 0 | Episode Reward: 3547.36 | Success cnt: 9 | Local Step: 1000 | Global Episode: 94 | Global Worker Step: 93376
+2022-10-02 15:12:31,589 - INFO - Rank 0 | Global Episode: 95 | Episode Reward: 3546.17 | Local step: 1000 | Global worker step: 94376 | Update step: 91188 | Worker id: 1 | Elapsed time: 01:00:02
+2022-10-02 15:12:32,322 - INFO - Rank 0 | Global Episode: 96 | Episode Reward: 3582.07 | Local step: 1000 | Global worker step: 95376 | Update step: 91211 | Worker id: 2 | Elapsed time: 01:00:03
+2022-10-02 15:13:31,549 - INFO - Rank 0 | Global Episode: 97 | Episode Reward: 3568.40 | Local step: 1000 | Global worker step: 96376 | Update step: 93046 | Worker id: 0 | Elapsed time: 01:01:02
+2022-10-02 15:14:07,984 - INFO - Rank 0 | Global Episode: 98 | Episode Reward: 3575.13 | Local step: 1000 | Global worker step: 97376 | Update step: 93807 | Worker id: 1 | Elapsed time: 01:01:38
+2022-10-02 15:14:08,667 - INFO - Rank 0 | Global Episode: 99 | Episode Reward: 3551.98 | Local step: 1000 | Global worker step: 98376 | Update step: 93822 | Worker id: 2 | Elapsed time: 01:01:39
+2022-10-02 15:15:30,145 - ERROR - Rank 0 | Episode Reward: 3570.59 | Success cnt: 10 | Local Step: 1000 | Global Episode: 99 | Global Worker Step: 98376
+2022-10-02 15:15:48,523 - INFO - Rank 0 | Global Episode: 100 | Episode Reward: 3563.45 | Local step: 1000 | Global worker step: 99376 | Update step: 95989 | Worker id: 1 | Elapsed time: 01:03:19
+2022-10-02 15:15:50,149 - INFO - Rank 0 | Global Episode: 101 | Episode Reward: 3555.24 | Local step: 1000 | Global worker step: 100376 | Update step: 96019 | Worker id: 2 | Elapsed time: 01:03:20
+2022-10-02 15:17:08,442 - INFO - Rank 0 | Global Episode: 102 | Episode Reward: 3531.03 | Local step: 1000 | Global worker step: 101376 | Update step: 98423 | Worker id: 0 | Elapsed time: 01:04:39
+2022-10-02 15:17:25,947 - INFO - Rank 0 | Global Episode: 103 | Episode Reward: 3562.09 | Local step: 1000 | Global worker step: 102376 | Update step: 98790 | Worker id: 1 | Elapsed time: 01:04:56
+2022-10-02 15:17:27,393 - INFO - Rank 0 | Global Episode: 104 | Episode Reward: 3568.89 | Local step: 1000 | Global worker step: 103376 | Update step: 98820 | Worker id: 2 | Elapsed time: 01:04:58
+2022-10-02 15:19:01,230 - INFO - Rank 0 | Global Episode: 105 | Episode Reward: 3573.31 | Local step: 1000 | Global worker step: 104376 | Update step: 100789 | Worker id: 1 | Elapsed time: 01:06:31
+2022-10-02 15:19:02,807 - INFO - Rank 0 | Global Episode: 106 | Episode Reward: 3585.82 | Local step: 1000 | Global worker step: 105376 | Update step: 100822 | Worker id: 2 | Elapsed time: 01:06:33
+2022-10-02 15:19:07,300 - ERROR - Rank 0 | Episode Reward: 3571.39 | Success cnt: 10 | Local Step: 1000 | Global Episode: 106 | Global Worker Step: 105376
+2022-10-02 15:20:37,043 - INFO - Rank 0 | Global Episode: 107 | Episode Reward: 3591.69 | Local step: 1000 | Global worker step: 106376 | Update step: 103710 | Worker id: 1 | Elapsed time: 01:08:07
+2022-10-02 15:20:39,175 - INFO - Rank 0 | Global Episode: 108 | Episode Reward: 3515.54 | Local step: 1000 | Global worker step: 107376 | Update step: 103777 | Worker id: 2 | Elapsed time: 01:08:09
+2022-10-02 15:20:44,006 - INFO - Rank 0 | Global Episode: 109 | Episode Reward: 3593.02 | Local step: 1000 | Global worker step: 108376 | Update step: 103928 | Worker id: 0 | Elapsed time: 01:08:14
+2022-10-02 15:22:12,216 - INFO - Rank 0 | Global Episode: 110 | Episode Reward: 3580.69 | Local step: 1000 | Global worker step: 109376 | Update step: 105777 | Worker id: 1 | Elapsed time: 01:09:42
+2022-10-02 15:22:14,864 - INFO - Rank 0 | Global Episode: 111 | Episode Reward: 3580.68 | Local step: 1000 | Global worker step: 110376 | Update step: 105833 | Worker id: 2 | Elapsed time: 01:09:45
+2022-10-02 15:22:44,103 - ERROR - Rank 0 | Episode Reward: 3567.40 | Success cnt: 10 | Local Step: 1000 | Global Episode: 111 | Global Worker Step: 110376
+2022-10-02 15:23:40,773 - INFO - Rank 0 | Global Episode: 112 | Episode Reward: 3470.72 | Local step: 921 | Global worker step: 111297 | Update step: 108200 | Worker id: 1 | Elapsed time: 01:11:11
+2022-10-02 15:23:51,513 - INFO - Rank 0 | Global Episode: 113 | Episode Reward: 3572.06 | Local step: 1000 | Global worker step: 112297 | Update step: 108534 | Worker id: 2 | Elapsed time: 01:11:22
+2022-10-02 15:24:11,248 - INFO - Rank 0 | Global Episode: 114 | Episode Reward: 3398.98 | Local step: 901 | Global worker step: 113198 | Update step: 109152 | Worker id: 0 | Elapsed time: 01:11:41
+2022-10-02 15:25:16,060 - INFO - Rank 0 | Global Episode: 115 | Episode Reward: 3589.84 | Local step: 1000 | Global worker step: 114198 | Update step: 110512 | Worker id: 1 | Elapsed time: 01:12:46
+2022-10-02 15:25:26,932 - INFO - Rank 0 | Global Episode: 116 | Episode Reward: 3564.93 | Local step: 1000 | Global worker step: 115198 | Update step: 110741 | Worker id: 2 | Elapsed time: 01:12:57
+2022-10-02 15:26:10,048 - ERROR - Rank 0 | Episode Reward: 3576.81 | Success cnt: 10 | Local Step: 1000 | Global Episode: 116 | Global Worker Step: 115198
+2022-10-02 15:26:51,626 - INFO - Rank 0 | Global Episode: 117 | Episode Reward: 3579.91 | Local step: 1000 | Global worker step: 116198 | Update step: 112938 | Worker id: 1 | Elapsed time: 01:14:22
+2022-10-02 15:27:03,042 - INFO - Rank 0 | Global Episode: 118 | Episode Reward: 3563.70 | Local step: 1000 | Global worker step: 117198 | Update step: 113293 | Worker id: 2 | Elapsed time: 01:14:33
+2022-10-02 15:27:46,593 - INFO - Rank 0 | Global Episode: 119 | Episode Reward: 3557.49 | Local step: 1000 | Global worker step: 118198 | Update step: 114650 | Worker id: 0 | Elapsed time: 01:15:17
+2022-10-02 15:28:27,096 - INFO - Rank 0 | Global Episode: 120 | Episode Reward: 3576.05 | Local step: 1000 | Global worker step: 119198 | Update step: 115501 | Worker id: 1 | Elapsed time: 01:15:57
+2022-10-02 15:28:39,091 - INFO - Rank 0 | Global Episode: 121 | Episode Reward: 3555.86 | Local step: 1000 | Global worker step: 120198 | Update step: 115750 | Worker id: 2 | Elapsed time: 01:16:09
+2022-10-02 15:29:46,317 - ERROR - Rank 0 | Episode Reward: 3567.80 | Success cnt: 10 | Local Step: 1000 | Global Episode: 121 | Global Worker Step: 120198
+2022-10-02 15:30:03,274 - INFO - Rank 0 | Global Episode: 122 | Episode Reward: 3576.76 | Local step: 1000 | Global worker step: 121198 | Update step: 117679 | Worker id: 1 | Elapsed time: 01:17:34
+2022-10-02 15:30:15,196 - INFO - Rank 0 | Global Episode: 123 | Episode Reward: 3558.60 | Local step: 1000 | Global worker step: 122198 | Update step: 118048 | Worker id: 2 | Elapsed time: 01:17:45
+2022-10-02 15:31:22,593 - INFO - Rank 0 | Global Episode: 124 | Episode Reward: 3594.41 | Local step: 1000 | Global worker step: 123198 | Update step: 120149 | Worker id: 0 | Elapsed time: 01:18:53
+2022-10-02 15:31:39,423 - INFO - Rank 0 | Global Episode: 125 | Episode Reward: 3552.32 | Local step: 1000 | Global worker step: 124198 | Update step: 120504 | Worker id: 1 | Elapsed time: 01:19:10
+2022-10-02 15:31:51,184 - INFO - Rank 0 | Global Episode: 126 | Episode Reward: 3570.91 | Local step: 1000 | Global worker step: 125198 | Update step: 120750 | Worker id: 2 | Elapsed time: 01:19:21
+2022-10-02 15:33:14,593 - INFO - Rank 0 | Global Episode: 127 | Episode Reward: 3550.95 | Local step: 1000 | Global worker step: 126198 | Update step: 122496 | Worker id: 1 | Elapsed time: 01:20:45
+2022-10-02 15:33:21,726 - ERROR - Rank 0 | Episode Reward: 3576.41 | Success cnt: 10 | Local Step: 1000 | Global Episode: 127 | Global Worker Step: 126198
+2022-10-02 15:33:27,229 - INFO - Rank 0 | Global Episode: 128 | Episode Reward: 3593.36 | Local step: 1000 | Global worker step: 127198 | Update step: 122814 | Worker id: 2 | Elapsed time: 01:20:57
+2022-10-02 15:34:59,971 - INFO - Rank 0 | Global Episode: 129 | Episode Reward: 3570.12 | Local step: 1000 | Global worker step: 128198 | Update step: 125389 | Worker id: 1 | Elapsed time: 01:22:30
+2022-10-02 15:35:07,089 - INFO - Rank 0 | Global Episode: 130 | Episode Reward: 3571.93 | Local step: 1000 | Global worker step: 129198 | Update step: 125608 | Worker id: 0 | Elapsed time: 01:22:37
+2022-10-02 15:35:12,660 - INFO - Rank 0 | Global Episode: 131 | Episode Reward: 3578.15 | Local step: 1000 | Global worker step: 130198 | Update step: 125725 | Worker id: 2 | Elapsed time: 01:22:43
+2022-10-02 15:36:35,317 - INFO - Rank 0 | Global Episode: 132 | Episode Reward: 3581.61 | Local step: 1000 | Global worker step: 131198 | Update step: 127455 | Worker id: 1 | Elapsed time: 01:24:06
+2022-10-02 15:36:48,449 - INFO - Rank 0 | Global Episode: 133 | Episode Reward: 3581.83 | Local step: 1000 | Global worker step: 132198 | Update step: 127731 | Worker id: 2 | Elapsed time: 01:24:19
+2022-10-02 15:37:05,430 - ERROR - Rank 0 | Episode Reward: 3532.56 | Success cnt: 9 | Local Step: 1000 | Global Episode: 133 | Global Worker Step: 132198
+2022-10-02 15:38:11,208 - INFO - Rank 0 | Global Episode: 134 | Episode Reward: 3571.06 | Local step: 1000 | Global worker step: 133198 | Update step: 130134 | Worker id: 1 | Elapsed time: 01:25:41
+2022-10-02 15:38:24,923 - INFO - Rank 0 | Global Episode: 135 | Episode Reward: 3580.01 | Local step: 1000 | Global worker step: 134198 | Update step: 130560 | Worker id: 2 | Elapsed time: 01:25:55
+2022-10-02 15:38:41,795 - INFO - Rank 0 | Global Episode: 136 | Episode Reward: 3578.70 | Local step: 1000 | Global worker step: 135198 | Update step: 131083 | Worker id: 0 | Elapsed time: 01:26:12
+2022-10-02 15:39:46,625 - INFO - Rank 0 | Global Episode: 137 | Episode Reward: 3559.63 | Local step: 1000 | Global worker step: 136198 | Update step: 132442 | Worker id: 1 | Elapsed time: 01:27:17
+2022-10-02 15:40:00,896 - INFO - Rank 0 | Global Episode: 138 | Episode Reward: 3569.26 | Local step: 1000 | Global worker step: 137198 | Update step: 132742 | Worker id: 2 | Elapsed time: 01:27:31
+2022-10-02 15:40:40,222 - ERROR - Rank 0 | Episode Reward: 3568.59 | Success cnt: 10 | Local Step: 1000 | Global Episode: 138 | Global Worker Step: 137198
+2022-10-02 15:41:22,290 - INFO - Rank 0 | Global Episode: 139 | Episode Reward: 3549.97 | Local step: 1000 | Global worker step: 138198 | Update step: 134873 | Worker id: 1 | Elapsed time: 01:28:53
+2022-10-02 15:41:37,246 - INFO - Rank 0 | Global Episode: 140 | Episode Reward: 3568.31 | Local step: 1000 | Global worker step: 139198 | Update step: 135337 | Worker id: 2 | Elapsed time: 01:29:07
+2022-10-02 15:42:16,904 - INFO - Rank 0 | Global Episode: 141 | Episode Reward: 3572.73 | Local step: 1000 | Global worker step: 140198 | Update step: 136573 | Worker id: 0 | Elapsed time: 01:29:47
+2022-10-02 15:42:58,299 - INFO - Rank 0 | Global Episode: 142 | Episode Reward: 3555.07 | Local step: 1000 | Global worker step: 141198 | Update step: 137438 | Worker id: 1 | Elapsed time: 01:30:29
+2022-10-02 15:43:13,155 - INFO - Rank 0 | Global Episode: 143 | Episode Reward: 3591.04 | Local step: 1000 | Global worker step: 142198 | Update step: 137750 | Worker id: 2 | Elapsed time: 01:30:43
+2022-10-02 15:44:16,766 - ERROR - Rank 0 | Episode Reward: 3568.83 | Success cnt: 10 | Local Step: 1000 | Global Episode: 143 | Global Worker Step: 142198
+2022-10-02 15:44:33,465 - INFO - Rank 0 | Global Episode: 144 | Episode Reward: 3555.92 | Local step: 1000 | Global worker step: 143198 | Update step: 139603 | Worker id: 1 | Elapsed time: 01:32:04
+2022-10-02 15:44:49,078 - INFO - Rank 0 | Global Episode: 145 | Episode Reward: 3560.80 | Local step: 1000 | Global worker step: 144198 | Update step: 140087 | Worker id: 2 | Elapsed time: 01:32:19
+2022-10-02 15:45:53,626 - INFO - Rank 0 | Global Episode: 146 | Episode Reward: 3587.94 | Local step: 1000 | Global worker step: 145198 | Update step: 142089 | Worker id: 0 | Elapsed time: 01:33:24
+2022-10-02 15:46:09,692 - INFO - Rank 0 | Global Episode: 147 | Episode Reward: 3595.49 | Local step: 1000 | Global worker step: 146198 | Update step: 142426 | Worker id: 1 | Elapsed time: 01:33:40
+2022-10-02 15:46:25,798 - INFO - Rank 0 | Global Episode: 148 | Episode Reward: 3572.46 | Local step: 1000 | Global worker step: 147198 | Update step: 142759 | Worker id: 2 | Elapsed time: 01:33:56
+2022-10-02 15:47:46,702 - INFO - Rank 0 | Global Episode: 149 | Episode Reward: 3583.70 | Local step: 1000 | Global worker step: 148198 | Update step: 144427 | Worker id: 1 | Elapsed time: 01:35:17
+2022-10-02 15:47:52,151 - ERROR - Rank 0 | Episode Reward: 3538.67 | Success cnt: 9 | Local Step: 1000 | Global Episode: 149 | Global Worker Step: 148198
+2022-10-02 15:48:02,807 - INFO - Rank 0 | Global Episode: 150 | Episode Reward: 3576.48 | Local step: 1000 | Global worker step: 149198 | Update step: 144867 | Worker id: 2 | Elapsed time: 01:35:33
+2022-10-02 15:49:18,149 - INFO - Rank 0 | Global Episode: 151 | Episode Reward: 3579.29 | Local step: 1000 | Global worker step: 150198 | Update step: 147365 | Worker id: 1 | Elapsed time: 01:36:48
+2022-10-02 15:49:21,345 - INFO - Rank 0 | Global Episode: 152 | Episode Reward: 3585.94 | Local step: 1000 | Global worker step: 151198 | Update step: 147541 | Worker id: 0 | Elapsed time: 01:36:52
+2022-10-02 15:49:26,933 - INFO - Rank 0 | Global Episode: 153 | Episode Reward: 3592.07 | Local step: 1000 | Global worker step: 152198 | Update step: 147752 | Worker id: 2 | Elapsed time: 01:36:57
+2022-10-02 15:50:11,187 - INFO - Rank 0 | Global Episode: 154 | Episode Reward: 3551.87 | Local step: 1000 | Global worker step: 153198 | Update step: 149431 | Worker id: 1 | Elapsed time: 01:37:41
+2022-10-02 15:50:19,726 - INFO - Rank 0 | Global Episode: 155 | Episode Reward: 3765.46 | Local step: 999 | Global worker step: 154197 | Update step: 149754 | Worker id: 2 | Elapsed time: 01:37:50
+2022-10-02 15:50:55,452 - ERROR - Rank 0 | Episode Reward: 3583.52 | Success cnt: 9 | Local Step: 1000 | Global Episode: 155 | Global Worker Step: 154197
+2022-10-02 15:51:04,457 - INFO - Rank 0 | Global Episode: 156 | Episode Reward: 3570.11 | Local step: 1000 | Global worker step: 155197 | Update step: 151594 | Worker id: 1 | Elapsed time: 01:38:35
+2022-10-02 15:51:13,246 - INFO - Rank 0 | Global Episode: 157 | Episode Reward: 3565.93 | Local step: 1000 | Global worker step: 156197 | Update step: 152084 | Worker id: 2 | Elapsed time: 01:38:43
+2022-10-02 15:51:49,098 - INFO - Rank 0 | Global Episode: 158 | Episode Reward: 3583.16 | Local step: 1000 | Global worker step: 157197 | Update step: 154091 | Worker id: 0 | Elapsed time: 01:39:19
+2022-10-02 15:51:57,653 - INFO - Rank 0 | Global Episode: 159 | Episode Reward: 3582.81 | Local step: 1000 | Global worker step: 158197 | Update step: 154420 | Worker id: 1 | Elapsed time: 01:39:28
+2022-10-02 15:52:06,512 - INFO - Rank 0 | Global Episode: 160 | Episode Reward: 3550.42 | Local step: 1000 | Global worker step: 159197 | Update step: 154763 | Worker id: 2 | Elapsed time: 01:39:37
+2022-10-02 15:52:49,734 - INFO - Rank 0 | Global Episode: 161 | Episode Reward: 3574.20 | Local step: 1000 | Global worker step: 160197 | Update step: 156423 | Worker id: 1 | Elapsed time: 01:40:20
+2022-10-02 15:52:58,474 - INFO - Rank 0 | Global Episode: 162 | Episode Reward: 3593.17 | Local step: 1000 | Global worker step: 161197 | Update step: 156760 | Worker id: 2 | Elapsed time: 01:40:29
+2022-10-02 15:53:21,578 - ERROR - Rank 0 | Episode Reward: 3570.54 | Success cnt: 10 | Local Step: 1000 | Global Episode: 162 | Global Worker Step: 161197
+2022-10-02 15:53:42,582 - INFO - Rank 0 | Global Episode: 163 | Episode Reward: 3584.62 | Local step: 1000 | Global worker step: 162197 | Update step: 158816 | Worker id: 1 | Elapsed time: 01:41:13
+2022-10-02 15:53:51,559 - INFO - Rank 0 | Global Episode: 164 | Episode Reward: 3568.57 | Local step: 1000 | Global worker step: 163197 | Update step: 159316 | Worker id: 2 | Elapsed time: 01:41:22
+2022-10-02 15:54:15,241 - INFO - Rank 0 | Global Episode: 165 | Episode Reward: 3582.95 | Local step: 1000 | Global worker step: 164197 | Update step: 160641 | Worker id: 0 | Elapsed time: 01:41:45
+2022-10-02 15:54:35,563 - INFO - Rank 0 | Global Episode: 166 | Episode Reward: 3581.12 | Local step: 1000 | Global worker step: 165197 | Update step: 161425 | Worker id: 1 | Elapsed time: 01:42:06
+2022-10-02 15:54:44,285 - INFO - Rank 0 | Global Episode: 167 | Episode Reward: 3553.61 | Local step: 1000 | Global worker step: 166197 | Update step: 161759 | Worker id: 2 | Elapsed time: 01:42:15
+2022-10-02 15:55:29,471 - INFO - Rank 0 | Global Episode: 168 | Episode Reward: 3575.57 | Local step: 1000 | Global worker step: 167197 | Update step: 163408 | Worker id: 1 | Elapsed time: 01:43:00
+2022-10-02 15:55:39,288 - INFO - Rank 0 | Global Episode: 169 | Episode Reward: 3566.37 | Local step: 1000 | Global worker step: 168197 | Update step: 163776 | Worker id: 2 | Elapsed time: 01:43:10
+2022-10-02 15:55:49,930 - ERROR - Rank 0 | Episode Reward: 3551.37 | Success cnt: 9 | Local Step: 886 | Global Episode: 169 | Global Worker Step: 168197
+2022-10-02 15:56:22,929 - INFO - Rank 0 | Global Episode: 170 | Episode Reward: 3562.52 | Local step: 1000 | Global worker step: 169197 | Update step: 166015 | Worker id: 1 | Elapsed time: 01:43:53
+2022-10-02 15:56:32,920 - INFO - Rank 0 | Global Episode: 171 | Episode Reward: 3574.33 | Local step: 1000 | Global worker step: 170197 | Update step: 166573 | Worker id: 2 | Elapsed time: 01:44:03
+2022-10-02 15:56:43,856 - INFO - Rank 0 | Global Episode: 172 | Episode Reward: 3569.26 | Local step: 1000 | Global worker step: 171197 | Update step: 167188 | Worker id: 0 | Elapsed time: 01:44:14
+2022-10-02 15:57:21,579 - INFO - Rank 0 | Global Episode: 173 | Episode Reward: 3548.38 | Local step: 1000 | Global worker step: 172197 | Update step: 168408 | Worker id: 1 | Elapsed time: 01:44:52
+2022-10-02 15:57:39,106 - INFO - Rank 0 | Global Episode: 174 | Episode Reward: 3566.17 | Local step: 1000 | Global worker step: 173197 | Update step: 168775 | Worker id: 2 | Elapsed time: 01:45:09
+2022-10-02 15:58:37,275 - ERROR - Rank 0 | Episode Reward: 3578.33 | Success cnt: 10 | Local Step: 1000 | Global Episode: 174 | Global Worker Step: 173197
+2022-10-02 15:58:57,226 - INFO - Rank 0 | Global Episode: 175 | Episode Reward: 3570.78 | Local step: 1000 | Global worker step: 174197 | Update step: 170611 | Worker id: 1 | Elapsed time: 01:46:27
+2022-10-02 15:59:15,585 - INFO - Rank 0 | Global Episode: 176 | Episode Reward: 3579.09 | Local step: 1000 | Global worker step: 175197 | Update step: 171182 | Worker id: 2 | Elapsed time: 01:46:46
+2022-10-02 16:00:13,623 - INFO - Rank 0 | Global Episode: 177 | Episode Reward: 3568.25 | Local step: 1000 | Global worker step: 176197 | Update step: 172988 | Worker id: 0 | Elapsed time: 01:47:44
+2022-10-02 16:00:33,563 - INFO - Rank 0 | Global Episode: 178 | Episode Reward: 3593.07 | Local step: 1000 | Global worker step: 177197 | Update step: 173402 | Worker id: 1 | Elapsed time: 01:48:04
+2022-10-02 16:00:51,707 - INFO - Rank 0 | Global Episode: 179 | Episode Reward: 3558.39 | Local step: 1000 | Global worker step: 178197 | Update step: 173779 | Worker id: 2 | Elapsed time: 01:48:22
+2022-10-02 16:02:09,679 - INFO - Rank 0 | Global Episode: 180 | Episode Reward: 3571.47 | Local step: 1000 | Global worker step: 179197 | Update step: 175400 | Worker id: 1 | Elapsed time: 01:49:40
+2022-10-02 16:02:11,955 - ERROR - Rank 0 | Episode Reward: 3571.88 | Success cnt: 10 | Local Step: 1000 | Global Episode: 180 | Global Worker Step: 179197
+2022-10-02 16:02:27,997 - INFO - Rank 0 | Global Episode: 181 | Episode Reward: 3579.73 | Local step: 1000 | Global worker step: 180197 | Update step: 175950 | Worker id: 2 | Elapsed time: 01:49:58
+2022-10-02 16:03:45,807 - INFO - Rank 0 | Global Episode: 182 | Episode Reward: 3596.89 | Local step: 1000 | Global worker step: 181197 | Update step: 178371 | Worker id: 1 | Elapsed time: 01:51:16
+2022-10-02 16:03:48,414 - INFO - Rank 0 | Global Episode: 183 | Episode Reward: 3585.09 | Local step: 1000 | Global worker step: 182197 | Update step: 178452 | Worker id: 0 | Elapsed time: 01:51:19
+2022-10-02 16:04:04,331 - INFO - Rank 0 | Global Episode: 184 | Episode Reward: 3572.51 | Local step: 1000 | Global worker step: 183197 | Update step: 178783 | Worker id: 2 | Elapsed time: 01:51:35
+2022-10-02 16:05:21,714 - INFO - Rank 0 | Global Episode: 185 | Episode Reward: 3581.06 | Local step: 1000 | Global worker step: 184197 | Update step: 180395 | Worker id: 1 | Elapsed time: 01:52:52
+2022-10-02 16:05:40,405 - INFO - Rank 0 | Global Episode: 186 | Episode Reward: 3585.46 | Local step: 1000 | Global worker step: 185197 | Update step: 180787 | Worker id: 2 | Elapsed time: 01:53:11
+2022-10-02 16:05:48,921 - ERROR - Rank 0 | Episode Reward: 3560.64 | Success cnt: 10 | Local Step: 1000 | Global Episode: 186 | Global Worker Step: 185197
+2022-10-02 16:06:57,320 - INFO - Rank 0 | Global Episode: 187 | Episode Reward: 3573.65 | Local step: 1000 | Global worker step: 186197 | Update step: 183101 | Worker id: 1 | Elapsed time: 01:54:28
+2022-10-02 16:07:16,869 - INFO - Rank 0 | Global Episode: 188 | Episode Reward: 3571.93 | Local step: 1000 | Global worker step: 187197 | Update step: 183703 | Worker id: 2 | Elapsed time: 01:54:47
+2022-10-02 16:07:25,401 - INFO - Rank 0 | Global Episode: 189 | Episode Reward: 3552.80 | Local step: 1000 | Global worker step: 188197 | Update step: 183965 | Worker id: 0 | Elapsed time: 01:54:56
+2022-10-02 16:08:34,544 - INFO - Rank 0 | Global Episode: 190 | Episode Reward: 3577.98 | Local step: 1000 | Global worker step: 189197 | Update step: 185388 | Worker id: 1 | Elapsed time: 01:56:05
+2022-10-02 16:08:54,111 - INFO - Rank 0 | Global Episode: 191 | Episode Reward: 3560.47 | Local step: 1000 | Global worker step: 190197 | Update step: 185792 | Worker id: 2 | Elapsed time: 01:56:24
+2022-10-02 16:09:26,917 - ERROR - Rank 0 | Episode Reward: 3570.56 | Success cnt: 10 | Local Step: 1000 | Global Episode: 191 | Global Worker Step: 190197
+2022-10-02 16:10:12,604 - INFO - Rank 0 | Global Episode: 192 | Episode Reward: 3554.58 | Local step: 1000 | Global worker step: 191197 | Update step: 187854 | Worker id: 1 | Elapsed time: 01:57:43
+2022-10-02 16:10:26,984 - INFO - Rank 0 | Global Episode: 193 | Episode Reward: 3536.71 | Local step: 931 | Global worker step: 192128 | Update step: 188264 | Worker id: 2 | Elapsed time: 01:57:57
+2022-10-02 16:11:05,806 - INFO - Rank 0 | Global Episode: 194 | Episode Reward: 3571.09 | Local step: 1000 | Global worker step: 193128 | Update step: 189450 | Worker id: 0 | Elapsed time: 01:58:36
+2022-10-02 16:11:50,633 - INFO - Rank 0 | Global Episode: 195 | Episode Reward: 3542.82 | Local step: 1000 | Global worker step: 194128 | Update step: 190386 | Worker id: 1 | Elapsed time: 01:59:21
+2022-10-02 16:12:03,569 - INFO - Rank 0 | Global Episode: 196 | Episode Reward: 3588.14 | Local step: 1000 | Global worker step: 195128 | Update step: 190656 | Worker id: 2 | Elapsed time: 01:59:34
+2022-10-02 16:13:04,817 - ERROR - Rank 0 | Episode Reward: 3577.93 | Success cnt: 10 | Local Step: 1000 | Global Episode: 196 | Global Worker Step: 195128
+2022-10-02 16:13:26,234 - INFO - Rank 0 | Global Episode: 197 | Episode Reward: 3569.33 | Local step: 1000 | Global worker step: 196128 | Update step: 192606 | Worker id: 1 | Elapsed time: 02:00:56
+2022-10-02 16:13:39,670 - INFO - Rank 0 | Global Episode: 198 | Episode Reward: 3552.59 | Local step: 1000 | Global worker step: 197128 | Update step: 193021 | Worker id: 2 | Elapsed time: 02:01:10
+2022-10-02 16:14:41,063 - INFO - Rank 0 | Global Episode: 199 | Episode Reward: 3581.96 | Local step: 1000 | Global worker step: 198128 | Update step: 194936 | Worker id: 0 | Elapsed time: 02:02:11
+2022-10-02 16:15:02,321 - INFO - Rank 0 | Global Episode: 200 | Episode Reward: 3581.31 | Local step: 1000 | Global worker step: 199128 | Update step: 195377 | Worker id: 1 | Elapsed time: 02:02:33
+2022-10-02 16:15:16,115 - INFO - Rank 0 | Global Episode: 201 | Episode Reward: 3555.52 | Local step: 1000 | Global worker step: 200128 | Update step: 195665 | Worker id: 2 | Elapsed time: 02:02:46
+2022-10-02 16:16:37,988 - INFO - Rank 0 | Global Episode: 202 | Episode Reward: 3577.61 | Local step: 1000 | Global worker step: 201128 | Update step: 197373 | Worker id: 1 | Elapsed time: 02:04:08
+2022-10-02 16:16:41,230 - ERROR - Rank 0 | Episode Reward: 3572.83 | Success cnt: 10 | Local Step: 1000 | Global Episode: 202 | Global Worker Step: 201128
+2022-10-02 16:16:52,238 - INFO - Rank 0 | Global Episode: 203 | Episode Reward: 3576.56 | Local step: 1000 | Global worker step: 202128 | Update step: 197783 | Worker id: 2 | Elapsed time: 02:04:22
+2022-10-02 16:18:14,137 - INFO - Rank 0 | Global Episode: 204 | Episode Reward: 3576.63 | Local step: 1000 | Global worker step: 203128 | Update step: 200330 | Worker id: 1 | Elapsed time: 02:05:44
+2022-10-02 16:18:17,724 - INFO - Rank 0 | Global Episode: 205 | Episode Reward: 3550.50 | Local step: 1000 | Global worker step: 204128 | Update step: 200442 | Worker id: 0 | Elapsed time: 02:05:48
+2022-10-02 16:18:28,662 - INFO - Rank 0 | Global Episode: 206 | Episode Reward: 3580.45 | Local step: 1000 | Global worker step: 205128 | Update step: 200670 | Worker id: 2 | Elapsed time: 02:05:59
+2022-10-02 16:19:50,729 - INFO - Rank 0 | Global Episode: 207 | Episode Reward: 3584.76 | Local step: 1000 | Global worker step: 206128 | Update step: 202372 | Worker id: 1 | Elapsed time: 02:07:21
+2022-10-02 16:19:59,350 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r/Trainer/Basic_trainer_with_model.py", line 139, in model_trainer
+    action_hat = algorithm.imn(mem_observation,
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/ETRI/GymSim_s2r/Network/Model_Network.py", line 284, in forward
+    action = torch.tanh(self.action_net(torch.cat([middle, next_state], dim=-1)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 39, in forward
+    output = F.linear(input, W) + self.bias
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/traceback.py", line 197, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/traceback.py", line 211, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/traceback.py", line 349, in extract
+    filename = co.co_filename
+KeyboardInterrupt
+

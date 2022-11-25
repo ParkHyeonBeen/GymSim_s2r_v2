@@ -1,0 +1,58 @@
+
+################## SAC configuration #################
+
+- base_path: '/home/phb/ETRI/GymSim_s2r_2/'
+- train: True
+- note: 'change bnn std 0.1 --> 0.01'
+- test_eps: 100
+- render: False
+- result_name: '0824-1306QuadRotor-v0'
+- model_on: True
+- test_mode: 'disturbance'
+- num_dist: 20
+- add_to: 'action'
+- max_dist_action: 0.2
+- min_dist_action: 0.1
+- max_dist_state: 1.0
+- min_dist_state: 0.0
+- num_worker: 3
+- num_update_worker: 3
+- eval_step: 100
+- max_step: 6000000.0
+- model_train_start_step: 3000000.0
+- reg_weight: 1e-13
+- develop_mode: 'imn'
+- use_prev_policy: True
+- net_type: 'dnn'
+- model_hidden_dim: 256
+- model_lr: 0.0003
+- inv_model_lr_dnn: 0.0003
+- kl_weight: 0.05
+- eps_p: 0.1
+- lambda_t: 0.1
+- lambda_s: 0.5
+- n_history: 3
+- training_start: 1000
+- eval_episode: 10
+- domain_type: 'gym'
+- env_name: 'HalfCheetah-v4'
+- robots: 'Panda'
+- discrete: False
+- eval: True
+- random_seed: -1
+- batch_size: 256
+- buffer_size: 1000000
+- update_iter: 1
+- train_alpha: False
+- gamma: 0.99
+- alpha: 0.1
+- actor_lr: 0.001
+- critic_lr: 0.001
+- alpha_lr: 0.0001
+- encoder_lr: 0.001
+- tau: 0.01
+- critic_update: 1
+- hidden_dim: (256, 256)
+- log_std_min: -10
+- log_std_max: 2
+- cpu_only: False

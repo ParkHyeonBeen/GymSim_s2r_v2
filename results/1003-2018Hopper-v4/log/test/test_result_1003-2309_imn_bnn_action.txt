@@ -1,0 +1,43 @@
+Sparsification ratio: 92.997%
+disturbance scale:  0.0  percent of max thrust
+Success rate:  97.0 | Average Reward:  3552.3937173925433 | Success Reward:  3569.2657698252087
+disturbance scale:  2.0  percent of max thrust
+Success rate:  54.0 | Average Reward:  3008.7634775738247 | Success Reward:  3559.528579017486
+disturbance scale:  4.0  percent of max thrust
+Success rate:  5.0 | Average Reward:  1971.2529305371215 | Success Reward:  3543.967927643675
+disturbance scale:  6.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  1707.717469804495 | Success Reward:  0.0
+disturbance scale:  8.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  1781.2543469631262 | Success Reward:  0.0
+disturbance scale:  10.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  1733.575724602536 | Success Reward:  0.0
+disturbance scale:  12.0  percent of max thrust
+Success rate:  6.0 | Average Reward:  1994.2440105257324 | Success Reward:  3404.632955768782
+disturbance scale:  14.000000000000002  percent of max thrust
+Success rate:  6.0 | Average Reward:  2243.688528308632 | Success Reward:  3493.2802497971898
+disturbance scale:  16.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  1288.0618046933484 | Success Reward:  0.0
+disturbance scale:  18.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  993.70131324912 | Success Reward:  0.0
+disturbance scale:  20.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  762.5829208224244 | Success Reward:  0.0
+disturbance scale:  22.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  690.1800181670321 | Success Reward:  0.0
+disturbance scale:  24.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  618.3373054943349 | Success Reward:  0.0
+disturbance scale:  26.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  571.2430304379843 | Success Reward:  0.0
+disturbance scale:  28.000000000000004  percent of max thrust
+Success rate:  0.0 | Average Reward:  520.6227502458037 | Success Reward:  0.0
+disturbance scale:  30.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  499.21155868365514 | Success Reward:  0.0
+disturbance scale:  32.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  469.4324264964141 | Success Reward:  0.0
+disturbance scale:  34.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  465.4241013107153 | Success Reward:  0.0
+disturbance scale:  36.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  448.8404868086351 | Success Reward:  0.0
+disturbance scale:  38.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  435.1481910797722 | Success Reward:  0.0
+disturbance scale:  40.0  percent of max thrust
+Success rate:  0.0 | Average Reward:  424.6333908399055 | Success Reward:  0.0

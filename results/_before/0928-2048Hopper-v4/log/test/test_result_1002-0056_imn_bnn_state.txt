@@ -1,0 +1,42 @@
+standard deviation of state noise:  0.0
+Success rate:  92.0 | Average Reward:  3548.8797489429307 | Success Reward:  3572.4404737294453
+standard deviation of state noise:  0.05
+Success rate:  3.0 | Average Reward:  2152.403412091794 | Success Reward:  3609.7915008155446
+standard deviation of state noise:  0.1
+Success rate:  0.0 | Average Reward:  936.1591881727601 | Success Reward:  0.0
+standard deviation of state noise:  0.15
+Success rate:  0.0 | Average Reward:  611.8975974122229 | Success Reward:  0.0
+standard deviation of state noise:  0.2
+Success rate:  0.0 | Average Reward:  500.1033653036504 | Success Reward:  0.0
+standard deviation of state noise:  0.25
+Success rate:  0.0 | Average Reward:  449.11662215695054 | Success Reward:  0.0
+standard deviation of state noise:  0.3
+Success rate:  0.0 | Average Reward:  438.60541525730775 | Success Reward:  0.0
+standard deviation of state noise:  0.35
+Success rate:  0.0 | Average Reward:  400.22648870540826 | Success Reward:  0.0
+standard deviation of state noise:  0.4
+Success rate:  0.0 | Average Reward:  318.8857378516521 | Success Reward:  0.0
+standard deviation of state noise:  0.45
+Success rate:  0.0 | Average Reward:  295.550955871179 | Success Reward:  0.0
+standard deviation of state noise:  0.5
+Success rate:  0.0 | Average Reward:  270.58974661386526 | Success Reward:  0.0
+standard deviation of state noise:  0.55
+Success rate:  0.0 | Average Reward:  261.3442967977949 | Success Reward:  0.0
+standard deviation of state noise:  0.6
+Success rate:  0.0 | Average Reward:  262.5186323503142 | Success Reward:  0.0
+standard deviation of state noise:  0.65
+Success rate:  0.0 | Average Reward:  248.06004674027918 | Success Reward:  0.0
+standard deviation of state noise:  0.7
+Success rate:  0.0 | Average Reward:  239.68370296974638 | Success Reward:  0.0
+standard deviation of state noise:  0.75
+Success rate:  0.0 | Average Reward:  235.30613165434366 | Success Reward:  0.0
+standard deviation of state noise:  0.8
+Success rate:  0.0 | Average Reward:  221.43386224361632 | Success Reward:  0.0
+standard deviation of state noise:  0.85
+Success rate:  0.0 | Average Reward:  211.99321049002165 | Success Reward:  0.0
+standard deviation of state noise:  0.9
+Success rate:  0.0 | Average Reward:  180.94140943471214 | Success Reward:  0.0
+standard deviation of state noise:  0.95
+Success rate:  0.0 | Average Reward:  195.06278978688738 | Success Reward:  0.0
+standard deviation of state noise:  1.0
+Success rate:  0.0 | Average Reward:  175.62141726880617 | Success Reward:  0.0

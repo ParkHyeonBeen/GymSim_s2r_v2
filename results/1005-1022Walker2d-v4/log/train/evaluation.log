@@ -1,0 +1,1399 @@
+2022-10-05 10:23:14,937 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:24:16,378 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:25:17,874 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:26:19,305 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:27:20,787 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:28:22,464 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:29:23,900 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:30:25,440 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:31:26,900 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:32:28,343 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:33:29,835 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:34:31,251 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:35:32,846 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:36:34,384 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:37:35,843 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:38:37,345 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:39:38,995 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:40:40,657 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:41:41,991 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:42:43,408 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:43:44,772 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:44:46,282 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:45:47,835 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:46:49,336 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:47:50,830 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:48:52,271 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:49:53,734 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:50:55,276 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:51:56,912 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:52:58,400 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:53:59,923 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:55:01,324 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:56:02,802 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:57:04,521 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:58:05,984 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 10:59:07,361 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:00:08,949 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:01:10,581 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:02:11,989 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:03:13,324 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:04:14,957 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:05:16,416 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:06:17,818 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:07:19,282 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:08:20,677 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:09:22,353 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:10:23,925 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:11:25,502 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:12:26,928 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:13:28,444 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:14:29,819 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:15:31,293 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:16:32,773 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:17:34,141 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:18:35,439 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:19:37,028 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:20:38,335 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:21:39,879 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:22:41,511 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:23:42,972 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:24:44,368 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:25:45,948 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:26:47,562 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:27:49,053 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:28:50,663 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:29:52,252 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:30:53,546 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:31:55,169 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:32:56,564 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:33:58,095 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:34:59,386 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:36:00,942 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:37:02,385 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:38:03,752 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:39:05,372 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:40:07,017 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:41:08,553 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:42:10,070 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:43:11,375 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:44:12,963 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:45:14,418 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:46:16,045 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:47:17,435 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:48:18,948 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:49:20,275 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:50:21,752 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:51:23,391 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:52:25,006 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:53:26,488 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:54:27,972 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:55:29,394 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:56:30,855 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:57:32,331 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:58:33,746 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 11:59:35,243 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:00:36,726 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:01:38,210 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:02:39,794 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:03:41,221 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:04:42,672 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:05:44,081 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:06:45,671 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:07:46,994 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:08:48,461 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:09:50,041 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:10:51,541 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:11:53,081 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:12:54,626 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:13:56,323 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:14:57,847 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:15:59,503 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:17:00,786 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:18:02,377 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:19:03,788 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:20:05,374 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:21:06,902 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:22:08,334 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:23:09,702 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:24:11,072 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:25:12,581 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:26:14,122 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:27:15,502 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:28:17,066 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:29:18,620 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:30:20,109 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:31:21,468 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:32:23,043 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:33:24,734 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:34:26,194 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:35:27,924 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:36:29,501 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:37:31,122 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:38:32,651 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:39:34,063 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:40:35,557 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:41:36,972 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:42:38,621 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:43:40,187 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:44:41,540 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:45:43,298 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:46:44,670 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:47:46,165 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:48:47,698 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:49:49,293 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:50:50,801 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:51:52,357 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:52:53,932 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:53:55,559 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:54:57,092 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:55:58,651 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:57:00,275 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:58:01,829 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 12:59:03,409 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:00:04,827 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:01:06,249 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:02:07,770 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:03:09,373 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:04:10,839 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:05:12,237 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:06:13,836 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:07:15,382 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:08:16,815 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:09:18,447 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:10:20,007 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:11:21,646 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:12:23,484 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:13:25,080 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:14:26,623 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:15:28,030 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:16:29,618 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:17:31,129 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:18:32,637 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:19:33,962 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:20:35,683 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:21:37,179 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:22:38,700 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:23:40,068 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:24:41,660 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:25:43,064 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:26:44,560 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:27:46,250 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:28:47,723 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:29:49,222 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:30:50,591 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:31:52,396 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:32:54,059 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:33:55,571 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:34:57,119 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:35:58,739 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:37:00,289 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:38:01,694 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-05 13:38:20,198 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 131, in model_trainer
+    action = algorithm.eval_action(observation)
+  File "/home/phb/ETRI/GymSim_s2r_v2/Algorithm/SAC_v3.py", line 94, in eval_action
+    action, _ = self.actor(state, deterministic=True)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/ETRI/GymSim_s2r_v2/Network/Gaussian_Actor.py", line 118, in forward
+    z = self.network[i](z)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 98, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/functional.py", line 1457, in relu
+    result = torch.relu(input)
+KeyboardInterrupt
+
+2022-10-05 13:38:20,198 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 94, in model_trainer
+    _ = algorithm.update(algorithm.worker_step)
+  File "/home/phb/ETRI/GymSim_s2r_v2/Algorithm/SAC_v3.py", line 190, in update
+    s_history, a_history, _, ns, _ = self.buffer.sample(64)
+  File "<string>", line 2, in sample
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/managers.py", line 835, in _callmethod
+    kind, result = conn.recv()
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+
+2022-10-05 13:38:20,202 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 94, in model_trainer
+    _ = algorithm.update(algorithm.worker_step)
+  File "/home/phb/ETRI/GymSim_s2r_v2/Algorithm/SAC_v3.py", line 191, in update
+    self.train_imn(s_history, a_history, ns)
+  File "/home/phb/ETRI/GymSim_s2r_v2/Algorithm/SAC_v3.py", line 167, in train_imn
+    model_loss.backward()
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+
+2022-10-05 13:38:20,410 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_v2/Trainer/Basic_trainer_with_model.py", line 94, in model_trainer
+    _ = algorithm.update(algorithm.worker_step)
+  File "/home/phb/ETRI/GymSim_s2r_v2/Algorithm/SAC_v3.py", line 190, in update
+    s_history, a_history, _, ns, _ = self.buffer.sample(64)
+  File "<string>", line 2, in sample
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/managers.py", line 835, in _callmethod
+    kind, result = conn.recv()
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+

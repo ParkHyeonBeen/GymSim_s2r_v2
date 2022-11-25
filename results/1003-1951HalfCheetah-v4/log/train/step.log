@@ -1,0 +1,114 @@
+2022-10-03 19:51:07,803 - INFO - Rank 0 | Global Episode: 1 | Episode Reward: 9790.07 | Local step: 1000 | Global worker step: 1000 | Update step: 0 | Worker id: 0 | Elapsed time: 00:00:04
+2022-10-03 19:51:13,334 - INFO - Rank 0 | Global Episode: 2 | Episode Reward: 10142.87 | Local step: 1000 | Global worker step: 2000 | Update step: 0 | Worker id: 1 | Elapsed time: 00:00:10
+2022-10-03 19:51:15,508 - INFO - Rank 0 | Global Episode: 3 | Episode Reward: 9835.66 | Local step: 1000 | Global worker step: 3000 | Update step: 0 | Worker id: 1 | Elapsed time: 00:00:12
+2022-10-03 19:51:17,795 - INFO - Rank 0 | Global Episode: 4 | Episode Reward: 9845.82 | Local step: 1000 | Global worker step: 4000 | Update step: 0 | Worker id: 1 | Elapsed time: 00:00:14
+2022-10-03 19:51:25,062 - INFO - Rank 0 | Global Episode: 5 | Episode Reward: 10001.87 | Local step: 1000 | Global worker step: 5000 | Update step: 834 | Worker id: 2 | Elapsed time: 00:00:21
+2022-10-03 19:51:33,981 - INFO - Rank 0 | Global Episode: 6 | Episode Reward: 9488.26 | Local step: 1000 | Global worker step: 6000 | Update step: 1976 | Worker id: 1 | Elapsed time: 00:00:30
+2022-10-03 19:51:40,949 - INFO - Rank 0 | Global Episode: 7 | Episode Reward: 9846.98 | Local step: 1000 | Global worker step: 7000 | Update step: 2859 | Worker id: 2 | Elapsed time: 00:00:37
+2022-10-03 19:51:49,536 - INFO - Rank 0 | Global Episode: 8 | Episode Reward: 9874.71 | Local step: 1000 | Global worker step: 8000 | Update step: 3961 | Worker id: 1 | Elapsed time: 00:00:46
+2022-10-03 19:51:51,407 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:51:56,675 - INFO - Rank 0 | Global Episode: 9 | Episode Reward: 9969.59 | Local step: 1000 | Global worker step: 9000 | Update step: 5211 | Worker id: 2 | Elapsed time: 00:00:53
+2022-10-03 19:52:05,078 - INFO - Rank 0 | Global Episode: 10 | Episode Reward: 9913.71 | Local step: 1000 | Global worker step: 10000 | Update step: 6838 | Worker id: 1 | Elapsed time: 00:01:01
+2022-10-03 19:52:06,752 - INFO - Rank 0 | Global Episode: 11 | Episode Reward: 9966.20 | Local step: 1000 | Global worker step: 11000 | Update step: 7160 | Worker id: 0 | Elapsed time: 00:01:03
+2022-10-03 19:52:12,400 - INFO - Rank 0 | Global Episode: 12 | Episode Reward: 9605.34 | Local step: 1000 | Global worker step: 12000 | Update step: 7875 | Worker id: 2 | Elapsed time: 00:01:09
+2022-10-03 19:52:20,676 - INFO - Rank 0 | Global Episode: 13 | Episode Reward: 9687.95 | Local step: 1000 | Global worker step: 13000 | Update step: 8938 | Worker id: 1 | Elapsed time: 00:01:17
+2022-10-03 19:52:28,078 - INFO - Rank 0 | Global Episode: 14 | Episode Reward: 10096.48 | Local step: 1000 | Global worker step: 14000 | Update step: 9890 | Worker id: 2 | Elapsed time: 00:01:24
+2022-10-03 19:52:36,231 - INFO - Rank 0 | Global Episode: 15 | Episode Reward: 10133.55 | Local step: 1000 | Global worker step: 15000 | Update step: 10930 | Worker id: 1 | Elapsed time: 00:01:33
+2022-10-03 19:52:43,809 - INFO - Rank 0 | Global Episode: 16 | Episode Reward: 9998.15 | Local step: 1000 | Global worker step: 16000 | Update step: 11899 | Worker id: 2 | Elapsed time: 00:01:40
+2022-10-03 19:52:51,908 - INFO - Rank 0 | Global Episode: 17 | Episode Reward: 9744.44 | Local step: 1000 | Global worker step: 17000 | Update step: 12924 | Worker id: 1 | Elapsed time: 00:01:48
+2022-10-03 19:52:52,586 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:52:59,553 - INFO - Rank 0 | Global Episode: 18 | Episode Reward: 10047.86 | Local step: 1000 | Global worker step: 18000 | Update step: 14351 | Worker id: 2 | Elapsed time: 00:01:56
+2022-10-03 19:53:07,493 - INFO - Rank 0 | Global Episode: 19 | Episode Reward: 10121.19 | Local step: 1000 | Global worker step: 19000 | Update step: 15878 | Worker id: 1 | Elapsed time: 00:02:04
+2022-10-03 19:53:08,035 - INFO - Rank 0 | Global Episode: 20 | Episode Reward: 10201.64 | Local step: 1000 | Global worker step: 20000 | Update step: 15981 | Worker id: 0 | Elapsed time: 00:02:04
+2022-10-03 19:53:15,422 - INFO - Rank 0 | Global Episode: 21 | Episode Reward: 10093.72 | Local step: 1000 | Global worker step: 21000 | Update step: 16914 | Worker id: 2 | Elapsed time: 00:02:12
+2022-10-03 19:53:23,216 - INFO - Rank 0 | Global Episode: 22 | Episode Reward: 9744.59 | Local step: 1000 | Global worker step: 22000 | Update step: 17909 | Worker id: 1 | Elapsed time: 00:02:19
+2022-10-03 19:53:31,197 - INFO - Rank 0 | Global Episode: 23 | Episode Reward: 9611.55 | Local step: 1000 | Global worker step: 23000 | Update step: 18919 | Worker id: 2 | Elapsed time: 00:02:27
+2022-10-03 19:53:39,086 - INFO - Rank 0 | Global Episode: 24 | Episode Reward: 9895.18 | Local step: 1000 | Global worker step: 24000 | Update step: 19910 | Worker id: 1 | Elapsed time: 00:02:35
+2022-10-03 19:53:47,071 - INFO - Rank 0 | Global Episode: 25 | Episode Reward: 9930.67 | Local step: 1000 | Global worker step: 25000 | Update step: 20923 | Worker id: 2 | Elapsed time: 00:02:43
+2022-10-03 19:53:53,896 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:53:54,712 - INFO - Rank 0 | Global Episode: 26 | Episode Reward: 9964.92 | Local step: 1000 | Global worker step: 26000 | Update step: 21954 | Worker id: 1 | Elapsed time: 00:02:51
+2022-10-03 19:54:02,714 - INFO - Rank 0 | Global Episode: 27 | Episode Reward: 10135.62 | Local step: 1000 | Global worker step: 27000 | Update step: 23500 | Worker id: 2 | Elapsed time: 00:02:59
+2022-10-03 19:54:09,261 - INFO - Rank 0 | Global Episode: 28 | Episode Reward: 9684.76 | Local step: 1000 | Global worker step: 28000 | Update step: 24768 | Worker id: 0 | Elapsed time: 00:03:06
+2022-10-03 19:54:10,242 - INFO - Rank 0 | Global Episode: 29 | Episode Reward: 9870.40 | Local step: 1000 | Global worker step: 29000 | Update step: 24892 | Worker id: 1 | Elapsed time: 00:03:07
+2022-10-03 19:54:18,524 - INFO - Rank 0 | Global Episode: 30 | Episode Reward: 10260.76 | Local step: 1000 | Global worker step: 30000 | Update step: 25938 | Worker id: 2 | Elapsed time: 00:03:15
+2022-10-03 19:54:25,897 - INFO - Rank 0 | Global Episode: 31 | Episode Reward: 9786.02 | Local step: 1000 | Global worker step: 31000 | Update step: 26880 | Worker id: 1 | Elapsed time: 00:03:22
+2022-10-03 19:54:34,322 - INFO - Rank 0 | Global Episode: 32 | Episode Reward: 9412.26 | Local step: 1000 | Global worker step: 32000 | Update step: 27947 | Worker id: 2 | Elapsed time: 00:03:31
+2022-10-03 19:54:41,575 - INFO - Rank 0 | Global Episode: 33 | Episode Reward: 10142.22 | Local step: 1000 | Global worker step: 33000 | Update step: 28870 | Worker id: 1 | Elapsed time: 00:03:38
+2022-10-03 19:54:50,188 - INFO - Rank 0 | Global Episode: 34 | Episode Reward: 9963.18 | Local step: 1000 | Global worker step: 34000 | Update step: 29962 | Worker id: 2 | Elapsed time: 00:03:46
+2022-10-03 19:54:55,158 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:54:57,198 - INFO - Rank 0 | Global Episode: 35 | Episode Reward: 10182.98 | Local step: 1000 | Global worker step: 35000 | Update step: 30988 | Worker id: 1 | Elapsed time: 00:03:53
+2022-10-03 19:55:06,017 - INFO - Rank 0 | Global Episode: 36 | Episode Reward: 9475.30 | Local step: 1000 | Global worker step: 36000 | Update step: 32669 | Worker id: 2 | Elapsed time: 00:04:02
+2022-10-03 19:55:10,763 - INFO - Rank 0 | Global Episode: 37 | Episode Reward: 10044.18 | Local step: 1000 | Global worker step: 37000 | Update step: 33575 | Worker id: 0 | Elapsed time: 00:04:07
+2022-10-03 19:55:12,901 - INFO - Rank 0 | Global Episode: 38 | Episode Reward: 9536.28 | Local step: 1000 | Global worker step: 38000 | Update step: 33846 | Worker id: 1 | Elapsed time: 00:04:09
+2022-10-03 19:55:21,886 - INFO - Rank 0 | Global Episode: 39 | Episode Reward: 9725.62 | Local step: 1000 | Global worker step: 39000 | Update step: 34980 | Worker id: 2 | Elapsed time: 00:04:18
+2022-10-03 19:55:28,819 - INFO - Rank 0 | Global Episode: 40 | Episode Reward: 6433.15 | Local step: 1000 | Global worker step: 40000 | Update step: 35844 | Worker id: 1 | Elapsed time: 00:04:25
+2022-10-03 19:55:37,688 - INFO - Rank 0 | Global Episode: 41 | Episode Reward: 9866.02 | Local step: 1000 | Global worker step: 41000 | Update step: 36981 | Worker id: 2 | Elapsed time: 00:04:34
+2022-10-03 19:55:44,637 - INFO - Rank 0 | Global Episode: 42 | Episode Reward: 9677.77 | Local step: 1000 | Global worker step: 42000 | Update step: 37856 | Worker id: 1 | Elapsed time: 00:04:41
+2022-10-03 19:55:53,394 - INFO - Rank 0 | Global Episode: 43 | Episode Reward: 9759.67 | Local step: 1000 | Global worker step: 43000 | Update step: 38963 | Worker id: 2 | Elapsed time: 00:04:50
+2022-10-03 19:55:56,895 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:55:59,757 - INFO - Rank 0 | Global Episode: 44 | Episode Reward: 10113.84 | Local step: 1000 | Global worker step: 44000 | Update step: 40088 | Worker id: 1 | Elapsed time: 00:04:56
+2022-10-03 19:56:04,700 - INFO - Rank 0 | Global Episode: 45 | Episode Reward: 10173.07 | Local step: 1000 | Global worker step: 45000 | Update step: 41751 | Worker id: 2 | Elapsed time: 00:05:01
+2022-10-03 19:56:06,591 - INFO - Rank 0 | Global Episode: 46 | Episode Reward: 9784.76 | Local step: 1000 | Global worker step: 46000 | Update step: 42404 | Worker id: 0 | Elapsed time: 00:05:03
+2022-10-03 19:56:08,508 - INFO - Rank 0 | Global Episode: 47 | Episode Reward: 10050.30 | Local step: 1000 | Global worker step: 47000 | Update step: 42852 | Worker id: 1 | Elapsed time: 00:05:05
+2022-10-03 19:56:13,323 - INFO - Rank 0 | Global Episode: 48 | Episode Reward: 9514.64 | Local step: 1000 | Global worker step: 48000 | Update step: 43971 | Worker id: 2 | Elapsed time: 00:05:10
+2022-10-03 19:56:17,057 - INFO - Rank 0 | Global Episode: 49 | Episode Reward: 9294.29 | Local step: 1000 | Global worker step: 49000 | Update step: 44847 | Worker id: 1 | Elapsed time: 00:05:13
+2022-10-03 19:56:21,895 - INFO - Rank 0 | Global Episode: 50 | Episode Reward: 9753.58 | Local step: 1000 | Global worker step: 50000 | Update step: 45977 | Worker id: 2 | Elapsed time: 00:05:18
+2022-10-03 19:56:25,574 - INFO - Rank 0 | Global Episode: 51 | Episode Reward: 9887.11 | Local step: 1000 | Global worker step: 51000 | Update step: 46844 | Worker id: 1 | Elapsed time: 00:05:22
+2022-10-03 19:56:30,410 - INFO - Rank 0 | Global Episode: 52 | Episode Reward: 9884.19 | Local step: 1000 | Global worker step: 52000 | Update step: 47984 | Worker id: 2 | Elapsed time: 00:05:27
+2022-10-03 19:56:34,047 - INFO - Rank 0 | Global Episode: 53 | Episode Reward: 9755.06 | Local step: 1000 | Global worker step: 53000 | Update step: 48837 | Worker id: 1 | Elapsed time: 00:05:30
+2022-10-03 19:56:34,920 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 197, in model_trainer
+    step + 1, success_cnt, 100*nn_ard.get_dropped_params_ratio(algorithm.imn)))
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch_ard/torch_ard.py", line 208, in get_dropped_params_ratio
+    return _get_dropped_params_cnt(model) * 1.0 / _get_params_cnt(model)
+ZeroDivisionError: float division by zero
+
+2022-10-03 19:56:39,016 - INFO - Rank 0 | Global Episode: 54 | Episode Reward: 9986.50 | Local step: 1000 | Global worker step: 54000 | Update step: 50459 | Worker id: 2 | Elapsed time: 00:05:35
+2022-10-03 19:56:42,655 - INFO - Rank 0 | Global Episode: 55 | Episode Reward: 9727.91 | Local step: 1000 | Global worker step: 55000 | Update step: 51721 | Worker id: 1 | Elapsed time: 00:05:39
+2022-10-03 19:56:43,605 - INFO - Rank 0 | Global Episode: 56 | Episode Reward: 10048.75 | Local step: 1000 | Global worker step: 56000 | Update step: 52048 | Worker id: 0 | Elapsed time: 00:05:40
+2022-10-03 19:56:47,613 - INFO - Rank 0 | Global Episode: 57 | Episode Reward: 9974.98 | Local step: 1000 | Global worker step: 57000 | Update step: 52988 | Worker id: 2 | Elapsed time: 00:05:44
+2022-10-03 19:56:47,777 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 131, in model_trainer
+    action = algorithm.eval_action(observation)
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 94, in eval_action
+    action, _ = self.actor(state, deterministic=True)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/phb/ETRI/GymSim_s2r_2/Network/Gaussian_Actor.py", line 124, in forward
+    dist = torch.distributions.Normal(mean, std, validate_args=True)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/distributions/normal.py", line 54, in __init__
+    super(Normal, self).__init__(batch_shape, validate_args=validate_args)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/distributions/distribution.py", line 54, in __init__
+    if not valid.all():
+KeyboardInterrupt
+

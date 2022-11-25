@@ -1,0 +1,2 @@
+Sparsification ratio: 0.601%
+disturbance scale:  0.0  percent of max thrust

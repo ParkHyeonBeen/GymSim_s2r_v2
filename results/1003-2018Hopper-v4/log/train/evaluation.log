@@ -1,0 +1,82 @@
+2022-10-03 20:19:54,245 - ERROR - Rank 0 | Episode Reward: 3570.51 | Success cnt: 10 | Local Step: 1000 | Global Episode: 4 | Global Worker Step: 4000| Sparsification ratio : 7.801
+2022-10-03 20:22:51,066 - ERROR - Rank 0 | Episode Reward: 3575.19 | Success cnt: 10 | Local Step: 1000 | Global Episode: 9 | Global Worker Step: 9000| Sparsification ratio : 10.408
+2022-10-03 20:25:47,574 - ERROR - Rank 0 | Episode Reward: 3561.57 | Success cnt: 9 | Local Step: 1000 | Global Episode: 12 | Global Worker Step: 12000| Sparsification ratio : 19.216
+2022-10-03 20:28:48,234 - ERROR - Rank 0 | Episode Reward: 3494.92 | Success cnt: 9 | Local Step: 760 | Global Episode: 17 | Global Worker Step: 17000| Sparsification ratio : 32.669
+2022-10-03 20:31:45,189 - ERROR - Rank 0 | Episode Reward: 3573.82 | Success cnt: 10 | Local Step: 1000 | Global Episode: 22 | Global Worker Step: 22000| Sparsification ratio : 41.732
+2022-10-03 20:34:41,174 - ERROR - Rank 0 | Episode Reward: 3558.63 | Success cnt: 9 | Local Step: 1000 | Global Episode: 25 | Global Worker Step: 25000| Sparsification ratio : 47.513
+2022-10-03 20:37:57,566 - ERROR - Rank 0 | Episode Reward: 3568.22 | Success cnt: 10 | Local Step: 1000 | Global Episode: 30 | Global Worker Step: 30000| Sparsification ratio : 57.639
+2022-10-03 20:41:15,917 - ERROR - Rank 0 | Episode Reward: 3573.67 | Success cnt: 10 | Local Step: 1000 | Global Episode: 35 | Global Worker Step: 35000| Sparsification ratio : 60.946
+2022-10-03 20:44:38,072 - ERROR - Rank 0 | Episode Reward: 3581.21 | Success cnt: 10 | Local Step: 1000 | Global Episode: 39 | Global Worker Step: 39000| Sparsification ratio : 63.932
+2022-10-03 20:47:56,814 - ERROR - Rank 0 | Episode Reward: 3548.03 | Success cnt: 9 | Local Step: 1000 | Global Episode: 43 | Global Worker Step: 43000| Sparsification ratio : 67.422
+2022-10-03 20:51:13,408 - ERROR - Rank 0 | Episode Reward: 3550.97 | Success cnt: 9 | Local Step: 1000 | Global Episode: 48 | Global Worker Step: 48000| Sparsification ratio : 71.222
+2022-10-03 20:54:32,052 - ERROR - Rank 0 | Episode Reward: 3568.38 | Success cnt: 10 | Local Step: 1000 | Global Episode: 53 | Global Worker Step: 52982| Sparsification ratio : 70.976
+2022-10-03 20:57:50,034 - ERROR - Rank 0 | Episode Reward: 3567.86 | Success cnt: 10 | Local Step: 1000 | Global Episode: 57 | Global Worker Step: 56982| Sparsification ratio : 73.325
+2022-10-03 21:01:07,566 - ERROR - Rank 0 | Episode Reward: 3566.69 | Success cnt: 10 | Local Step: 1000 | Global Episode: 61 | Global Worker Step: 60982| Sparsification ratio : 76.524
+2022-10-03 21:04:23,727 - ERROR - Rank 0 | Episode Reward: 3569.94 | Success cnt: 10 | Local Step: 1000 | Global Episode: 66 | Global Worker Step: 65982| Sparsification ratio : 78.167
+2022-10-03 21:07:38,519 - ERROR - Rank 0 | Episode Reward: 3594.90 | Success cnt: 9 | Local Step: 1000 | Global Episode: 71 | Global Worker Step: 70868| Sparsification ratio : 78.983
+2022-10-03 21:10:52,947 - ERROR - Rank 0 | Episode Reward: 3574.93 | Success cnt: 10 | Local Step: 1000 | Global Episode: 75 | Global Worker Step: 74829| Sparsification ratio : 79.842
+2022-10-03 21:14:08,418 - ERROR - Rank 0 | Episode Reward: 3575.33 | Success cnt: 10 | Local Step: 1000 | Global Episode: 79 | Global Worker Step: 78829| Sparsification ratio : 80.768
+2022-10-03 21:17:24,376 - ERROR - Rank 0 | Episode Reward: 3570.51 | Success cnt: 9 | Local Step: 1000 | Global Episode: 84 | Global Worker Step: 83829| Sparsification ratio : 81.685
+2022-10-03 21:20:39,291 - ERROR - Rank 0 | Episode Reward: 3566.76 | Success cnt: 10 | Local Step: 1000 | Global Episode: 89 | Global Worker Step: 88829| Sparsification ratio : 82.740
+2022-10-03 21:23:53,343 - ERROR - Rank 0 | Episode Reward: 3559.65 | Success cnt: 10 | Local Step: 1000 | Global Episode: 93 | Global Worker Step: 92829| Sparsification ratio : 84.499
+2022-10-03 21:27:05,365 - ERROR - Rank 0 | Episode Reward: 3479.38 | Success cnt: 9 | Local Step: 1000 | Global Episode: 97 | Global Worker Step: 96829| Sparsification ratio : 85.099
+2022-10-03 21:30:19,842 - ERROR - Rank 0 | Episode Reward: 3568.71 | Success cnt: 10 | Local Step: 1000 | Global Episode: 102 | Global Worker Step: 101829| Sparsification ratio : 85.540
+2022-10-03 21:33:34,964 - ERROR - Rank 0 | Episode Reward: 3571.24 | Success cnt: 10 | Local Step: 1000 | Global Episode: 107 | Global Worker Step: 106572| Sparsification ratio : 85.641
+2022-10-03 21:36:48,171 - ERROR - Rank 0 | Episode Reward: 3563.74 | Success cnt: 9 | Local Step: 1000 | Global Episode: 111 | Global Worker Step: 110572| Sparsification ratio : 86.569
+2022-10-03 21:40:02,696 - ERROR - Rank 0 | Episode Reward: 3566.96 | Success cnt: 10 | Local Step: 1000 | Global Episode: 116 | Global Worker Step: 115572| Sparsification ratio : 87.194
+2022-10-03 21:43:17,248 - ERROR - Rank 0 | Episode Reward: 3575.20 | Success cnt: 10 | Local Step: 1000 | Global Episode: 120 | Global Worker Step: 119471| Sparsification ratio : 87.614
+2022-10-03 21:46:30,482 - ERROR - Rank 0 | Episode Reward: 3552.54 | Success cnt: 9 | Local Step: 1000 | Global Episode: 125 | Global Worker Step: 124471| Sparsification ratio : 88.987
+2022-10-03 21:49:45,263 - ERROR - Rank 0 | Episode Reward: 3566.83 | Success cnt: 10 | Local Step: 1000 | Global Episode: 129 | Global Worker Step: 128471| Sparsification ratio : 88.297
+2022-10-03 21:52:59,702 - ERROR - Rank 0 | Episode Reward: 3565.86 | Success cnt: 10 | Local Step: 1000 | Global Episode: 133 | Global Worker Step: 132471| Sparsification ratio : 88.526
+2022-10-03 21:56:13,437 - ERROR - Rank 0 | Episode Reward: 3566.03 | Success cnt: 10 | Local Step: 1000 | Global Episode: 138 | Global Worker Step: 137471| Sparsification ratio : 89.660
+2022-10-03 21:59:26,964 - ERROR - Rank 0 | Episode Reward: 3569.36 | Success cnt: 10 | Local Step: 1000 | Global Episode: 142 | Global Worker Step: 141471| Sparsification ratio : 89.687
+2022-10-03 22:02:42,089 - ERROR - Rank 0 | Episode Reward: 3573.93 | Success cnt: 10 | Local Step: 1000 | Global Episode: 147 | Global Worker Step: 146471| Sparsification ratio : 90.284
+2022-10-03 22:05:56,894 - ERROR - Rank 0 | Episode Reward: 3581.19 | Success cnt: 9 | Local Step: 1000 | Global Episode: 151 | Global Worker Step: 150471| Sparsification ratio : 90.159
+2022-10-03 22:09:11,128 - ERROR - Rank 0 | Episode Reward: 3571.82 | Success cnt: 10 | Local Step: 1000 | Global Episode: 156 | Global Worker Step: 155471| Sparsification ratio : 90.560
+2022-10-03 22:12:26,611 - ERROR - Rank 0 | Episode Reward: 3569.86 | Success cnt: 10 | Local Step: 1000 | Global Episode: 160 | Global Worker Step: 159471| Sparsification ratio : 90.707
+2022-10-03 22:15:42,017 - ERROR - Rank 0 | Episode Reward: 3578.56 | Success cnt: 10 | Local Step: 1000 | Global Episode: 165 | Global Worker Step: 164471| Sparsification ratio : 90.993
+2022-10-03 22:18:56,016 - ERROR - Rank 0 | Episode Reward: 3562.14 | Success cnt: 10 | Local Step: 1000 | Global Episode: 169 | Global Worker Step: 168471| Sparsification ratio : 91.195
+2022-10-03 22:22:11,012 - ERROR - Rank 0 | Episode Reward: 3577.13 | Success cnt: 10 | Local Step: 1000 | Global Episode: 174 | Global Worker Step: 173471| Sparsification ratio : 91.174
+2022-10-03 22:25:25,126 - ERROR - Rank 0 | Episode Reward: 3574.96 | Success cnt: 10 | Local Step: 1000 | Global Episode: 178 | Global Worker Step: 177471| Sparsification ratio : 91.213
+2022-10-03 22:28:38,705 - ERROR - Rank 0 | Episode Reward: 3560.88 | Success cnt: 9 | Local Step: 1000 | Global Episode: 183 | Global Worker Step: 182471| Sparsification ratio : 91.940
+2022-10-03 22:31:52,563 - ERROR - Rank 0 | Episode Reward: 3562.71 | Success cnt: 10 | Local Step: 1000 | Global Episode: 187 | Global Worker Step: 186471| Sparsification ratio : 91.951
+2022-10-03 22:35:06,956 - ERROR - Rank 0 | Episode Reward: 3563.48 | Success cnt: 9 | Local Step: 1000 | Global Episode: 192 | Global Worker Step: 191471| Sparsification ratio : 91.930
+2022-10-03 22:38:20,030 - ERROR - Rank 0 | Episode Reward: 3562.46 | Success cnt: 10 | Local Step: 1000 | Global Episode: 196 | Global Worker Step: 195471| Sparsification ratio : 92.314
+2022-10-03 22:41:33,620 - ERROR - Rank 0 | Episode Reward: 3590.39 | Success cnt: 10 | Local Step: 1000 | Global Episode: 201 | Global Worker Step: 200471| Sparsification ratio : 92.119
+2022-10-03 22:44:46,806 - ERROR - Rank 0 | Episode Reward: 3553.74 | Success cnt: 9 | Local Step: 1000 | Global Episode: 205 | Global Worker Step: 204471| Sparsification ratio : 92.751
+2022-10-03 22:48:02,194 - ERROR - Rank 0 | Episode Reward: 3566.88 | Success cnt: 10 | Local Step: 1000 | Global Episode: 210 | Global Worker Step: 209371| Sparsification ratio : 92.592
+2022-10-03 22:51:34,753 - ERROR - Rank 0 | Episode Reward: 3574.03 | Success cnt: 10 | Local Step: 1000 | Global Episode: 214 | Global Worker Step: 213371| Sparsification ratio : 92.988
+2022-10-03 22:55:09,461 - ERROR - Rank 0 | Episode Reward: 3571.87 | Success cnt: 10 | Local Step: 1000 | Global Episode: 218 | Global Worker Step: 217371| Sparsification ratio : 93.307
+2022-10-03 22:58:46,082 - ERROR - Rank 0 | Episode Reward: 3573.45 | Success cnt: 10 | Local Step: 1000 | Global Episode: 223 | Global Worker Step: 222371| Sparsification ratio : 93.081
+2022-10-03 23:02:16,453 - ERROR - Rank 0 | Episode Reward: 3565.52 | Success cnt: 10 | Local Step: 1000 | Global Episode: 228 | Global Worker Step: 227199| Sparsification ratio : 93.026
+2022-10-03 23:05:36,802 - ERROR - Rank 0 | Episode Reward: 3577.54 | Success cnt: 10 | Local Step: 1000 | Global Episode: 232 | Global Worker Step: 231199| Sparsification ratio : 93.174
+2022-10-03 23:06:44,229 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 94, in model_trainer
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 191, in update
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 167, in train_imn
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+
+2022-10-03 23:06:44,230 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 94, in model_trainer
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 191, in update
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 167, in train_imn
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+
+2022-10-03 23:06:44,231 - ERROR - Rank 0 | Traceback (most recent call last):
+  File "/home/phb/ETRI/GymSim_s2r_2/Trainer/Basic_trainer_with_model.py", line 94, in model_trainer
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 191, in update
+  File "/home/phb/ETRI/GymSim_s2r_2/Algorithm/SAC_v3.py", line 167, in train_imn
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/phb/anaconda3/envs/env_test/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+
