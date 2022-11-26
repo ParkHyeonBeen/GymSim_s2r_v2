@@ -108,6 +108,8 @@ def hyperparameters(env_name="Hopper-v4"):
     return args
 
 def main(args):
+
+    print(torch.cuda.is_available())
     if args.cpu_only == True:
         device = torch.device('cpu')
     else:
