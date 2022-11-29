@@ -311,12 +311,20 @@ def save_policy(policy, score_best, score_now, alive_rate, path):
     torch.save(policy.state_dict(), path + "/policy_current")
 
 def load_model(network, path, fname):
+    # print(path)
+    # print("-"*20)
+    # print(network)
+    # print("-" * 20)
+    # print(fname)
+    # print("-" * 20)
+
     if "model" in path:
         if "bnn" in fname:
             model_tmp = torch.load(path + '/' + fname)
             saved_model = model_tmp["network"]
+            # print(saved_model)
             for key in saved_model.copy().keys():
-                if 'eps' in key:
+                if 'log_sigma' in key:
                     del (saved_model[key])
             network.load_state_dict(saved_model)
             print(model_tmp.keys())

@@ -11,12 +11,12 @@ def compressing(network):
     network.network[4].save_net()
 
     compressed_model["network.0.weight"] = network.network[0].W.detach()
-    compressed_model["network.2.weight"] = network.network[0].W.detach()
-    compressed_model["network.4.weight"] = network.network[0].W.detach()
+    compressed_model["network.2.weight"] = network.network[2].W.detach()
+    compressed_model["network.4.weight"] = network.network[4].W.detach()
 
     compressed_model["network.0.bias"] = network.network[0].bias.detach()
-    compressed_model["network.2.bias"] = network.network[0].bias.detach()
-    compressed_model["network.4.bias"] = network.network[0].bias.detach()
+    compressed_model["network.2.bias"] = network.network[2].bias.detach()
+    compressed_model["network.4.bias"] = network.network[4].bias.detach()
 
     return compressed_model
 

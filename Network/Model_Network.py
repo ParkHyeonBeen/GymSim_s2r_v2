@@ -193,10 +193,10 @@ class InverseModelNetwork(nn.Module):
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         self.hidden_dim = hidden_dim
 
-        # Regularization tech
-        self.ln = nn.LayerNorm(self.hidden_dim)
-        self.bn = nn.BatchNorm1d(self.hidden_dim)
-        self.do1 = nn.Dropout(0.15)
+        # # Regularization tech
+        # self.ln = nn.LayerNorm(self.hidden_dim)
+        # self.bn = nn.BatchNorm1d(self.hidden_dim)
+        # self.do1 = nn.Dropout(0.15)
 
         # construct the structure of model network
         if self.net_type == "dnn":
