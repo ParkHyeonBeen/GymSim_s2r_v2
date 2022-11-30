@@ -322,9 +322,13 @@ def load_model(network, path, fname):
         if "bnn" in fname:
             model_tmp = torch.load(path + '/' + fname)
             saved_model = model_tmp["network"]
-            # print(saved_model)
+
+            saved_model["network.0.log_sigma2"] = network.network[0].log_sigma2.detach()
+            saved_model["network.2.log_sigma2"] = network.network[2].log_sigma2.detach()
+            saved_model["network.4.log_sigma2"] = network.network[4].log_sigma2.detach()
+
             for key in saved_model.copy().keys():
-                if 'log_sigma' in key:
+                if 'eps' in key:
                     del (saved_model[key])
             network.load_state_dict(saved_model)
             print(model_tmp.keys())
