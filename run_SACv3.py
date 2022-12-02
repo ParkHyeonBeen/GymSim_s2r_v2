@@ -42,7 +42,6 @@ def hyperparameters(env_name="Hopper-v4"):
     parser.add_argument('--max_disturb', '-xd', default=0.2, type=float, help='max mag of disturbance for action')
     parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='min mag of disturbance for action')
 
-    parser.add_argument("--random_ratio", '-rr', default=0.05, type=float, help="Random ratio for env parameter.")
     parser.add_argument('--max_uncertain', '-xu', default=0.8, type=float,
                         help='max mag of uncertainty for model param')
     parser.add_argument('--min_uncertain', '-nu', default=0.0, type=float,
@@ -237,6 +236,7 @@ def main(args):
         elif args.which_kind == "uncertain":
             min_case = args.min_uncertain
             max_case = args.max_uncertain
+            init_geom_size = deepcopy(env.unwrapped.model.geom_size)
         else:
             min_case = args.min_noise
             max_case = args.max_noise
@@ -255,15 +255,16 @@ def main(args):
                     eval_model_error.get_xticks(np.round(case * 100, 3))
 
             elif args.which_kind == "uncertain":
-                env.unwrapped.model.geom_size = \
-                    env.unwrapped.model.geom_size*np.random.choice([1-args.random_ratio, 1+args.random_ratio])
-                print("uncertainty scale: ", case * 100, " percent of init property", file=result_txt)
-                print("uncertainty scale: ", case * 100, " percent of init property")
+                random_ratio = (case - max_case/2)*2
+                env.unwrapped.model.geom_size = init_geom_size*(1 + random_ratio)
+                print("uncertainty scale: ", random_ratio * 100, " percent of init property", file=result_txt)
+                print("uncertainty scale: ", random_ratio * 100, " percent of init property")
+                print("geom size : ", env.unwrapped.model.geom_size)
 
-                eval_reward.get_xticks(np.round(case * 100, 3))
-                eval_success.get_xticks(np.round(case * 100, 3))
+                eval_reward.get_xticks(np.round(random_ratio * 100, 3))
+                eval_success.get_xticks(np.round(random_ratio * 100, 3))
                 if args.model_on:
-                    eval_model_error.get_xticks(np.round(case * 100, 3))
+                    eval_model_error.get_xticks(np.round(random_ratio * 100, 3))
 
             else:
                 print("standard deviation of state noise: ", case, file=result_txt)
@@ -286,8 +287,6 @@ def main(args):
                 episode_model_error = []
                 dist = np.zeros(action_dim)
                 step = 0
-
-                print("geom size : ", env.unwrapped.model.geom_size)
 
                 for step in range(env.spec.max_episode_steps):
                     action = algorithm.eval_action(observation)
