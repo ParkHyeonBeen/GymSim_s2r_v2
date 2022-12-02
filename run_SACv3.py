@@ -305,7 +305,7 @@ def main(args):
                         next_observation, reward, done, _ = env.step(env_action)
 
                         next_observation_imn = deepcopy(next_observation)
-                        if args.which_kind != "noise":
+                        if args.which_kind == "noise":
                             next_observation_imn = np.random.normal(next_observation_imn, case)
 
                         action_hat = algorithm.imn(observation,
