@@ -286,7 +286,6 @@ def load_config(args):
 
 
 def get_algorithm_info(algorithm_name, state_dim, action_dim, device):
-
     # print(algorithm_name)
     # print('SAC_v2')
     # print(algorithm_name == 'SAC_v2')
