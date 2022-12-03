@@ -36,13 +36,13 @@ def hyperparameters(env_name="Hopper-v4"):
     parser.add_argument("--result_ver", default="best", type=str, help="choose the version of the results")
 
     ## To make a uncertain system
-    parser.add_argument('--num_case', '-nc', default=20, type=int, help='the number of cases in certain range')
+    parser.add_argument('--num_case', '-nc', default=10, type=int, help='the number of cases in certain range')
     parser.add_argument('--which_kind', '-wk', default='disturb', type=str, help='disturb, uncertain, noise')
 
     parser.add_argument('--max_disturb', '-xd', default=0.2, type=float, help='max mag of disturbance for action')
     parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='min mag of disturbance for action')
 
-    parser.add_argument('--max_uncertain', '-xu', default=0.8, type=float,
+    parser.add_argument('--max_uncertain', '-xu', default=0.5, type=float,
                         help='max mag of uncertainty for model param')
     parser.add_argument('--min_uncertain', '-nu', default=0.0, type=float,
                         help='min mag of uncertainty for model param')
