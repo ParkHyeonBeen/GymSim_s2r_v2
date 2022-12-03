@@ -83,23 +83,36 @@ def get_success_rate_plot(plt, data):
 
     # plt.tight_layout()
 
-def main(args):
+def get_selected_data(original_data):
+
+    new_data = deepcopy(original_data)
+    new = new_data["reward"]["disturb"]["dnn"][:, 0]
+    new_data["reward"]["disturb"]["dnn"][:, 0] = new[new % 2 == 0]
+
+    return new_data
+
+def main():
     global num_data
 
     results_list = get_env_file(os.listdir("./results"))
     result_data = find_each_results(results_list)
 
-    result_data["model_error"]["uncertain"]["dnn"][:, 0] = result_data["model_error"]["uncertain"]["dnn"][:, 0] - np.min(result_data["model_error"]["uncertain"]["dnn"][:, 0])
-    result_data["model_error"]["uncertain"]["dnn"][:, 1] = result_data["model_error"]["uncertain"]["dnn"][:, 1] - np.min(result_data["model_error"]["uncertain"]["dnn"][:, 1])
-    result_data["model_error"]["uncertain"]["bnn"][:, 0] = result_data["model_error"]["uncertain"]["bnn"][:, 0] - np.min(result_data["model_error"]["uncertain"]["bnn"][:, 0])
-    result_data["model_error"]["uncertain"]["bnn"][:, 1] = result_data["model_error"]["uncertain"]["bnn"][:, 1] - np.min(result_data["model_error"]["uncertain"]["bnn"][:, 1])
     num_data = len(result_data["reward"]["disturb"]["dnn"])
+
+    # result_data["model_error"]["uncertain"]["dnn"][:, 0] = result_data["model_error"]["uncertain"]["dnn"][:, 0] - np.min(result_data["model_error"]["uncertain"]["dnn"][:, 0])
+    # result_data["model_error"]["uncertain"]["dnn"][:, 1] = result_data["model_error"]["uncertain"]["dnn"][:, 1] - np.min(result_data["model_error"]["uncertain"]["dnn"][:, 1])
+    # result_data["model_error"]["uncertain"]["bnn"][:, 0] = result_data["model_error"]["uncertain"]["bnn"][:, 0] - np.min(result_data["model_error"]["uncertain"]["bnn"][:, 0])
+    # result_data["model_error"]["uncertain"]["bnn"][:, 1] = result_data["model_error"]["uncertain"]["bnn"][:, 1] - np.min(result_data["model_error"]["uncertain"]["bnn"][:, 1])
 
     for i, indicator in enumerate(result_data.keys()):
         for j, case in enumerate(result_data[indicator].keys()):
 
+            if (indicator == "model_error" and case != "noise") or \
+                    (indicator != "model_error" and case == "noise"):
+                continue
+
             plt.figure()
-            plt.grid(True)
+            # plt.grid(True)
 
             if case == "disturb":
                 min_case = 0
@@ -111,7 +124,8 @@ def main(args):
                 min_case = 0
                 max_case = 0.1
 
-            plt.xticks(np.arange(num_data), np.round(np.linspace(min_case, max_case, num_data), 1))
+            plt.xticks(np.arange(num_data), np.round(np.linspace(min_case, max_case, num_data), 2))
+            # plt.xticks(np.round(np.linspace(min_case, max_case, int(num_data/4)+1), 2))
 
             if indicator == "success_rate":
                 get_success_rate_plot(plt, result_data[indicator][case])
@@ -119,11 +133,11 @@ def main(args):
             if indicator != "success_rate":
                 get_rewards_plot(plt, result_data[indicator][case])
 
-            plt.ylabel(indicator)
-            plt.title(case)
-            plt.legend()
+            plt.ylabel(indicator, fontsize=14.0, fontweight='bold')
+            plt.title(case, fontsize=14.0, fontweight='bold')
+            plt.legend(fontsize=10.0, prop=dict(weight='bold'))
 
     plt.show()
 
 if __name__ == '__main__':
-    main(args)
+    main()
