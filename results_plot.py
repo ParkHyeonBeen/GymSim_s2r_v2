@@ -9,7 +9,8 @@ from collections import OrderedDict
 parser = argparse.ArgumentParser(description='Results integrated plot')
 
 parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help='base path of the current project')
-parser.add_argument("--env_name", "-en", default="Ant-v4", type=str, help="the name of environment to show")
+parser.add_argument("--env_name", "-en", default="Hopper-v4", type=str, help="the name of environment to show")
+parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
 parser.add_argument('--max_disturb', '-xd', default=40, type=float, help='hopper   : 20'
                                                                          'walker2d : 40'
@@ -23,6 +24,10 @@ parser.add_argument('--max_uncertain', '-xu', default=30, type=float, help='hopp
 
 parser.add_argument('--max_noise', '-xn', default=0.1, type=float, help='max std of gaussian noise for state')
 parser.add_argument('--min_noise', '-nn', default=0.0, type=float, help='min std of gaussian noise for state')
+
+parser.add_argument('--label_size', '-bs', default=15., type=float, help='XY label size')
+parser.add_argument('--legend_size', '-gs', default=10., type=float, help='Legend size')
+parser.add_argument('--window_size', '-ws', default=(9, 6), help='min std of gaussian noise for state')
 
 args = parser.parse_known_args()
 
@@ -61,7 +66,7 @@ def find_each_results(results_list):
         result_path = "./results/" + results + "/log/test/"
         test_log_list = os.listdir(result_path)
         for test_log in test_log_list:
-            if "npy" in test_log:
+            if "csv" in test_log and args.from_csv is True:
                 terms = test_log[:-4].split("_")
 
                 indicator_name = terms[0] if "reward" in terms else "_".join(terms[:2])
@@ -69,7 +74,20 @@ def find_each_results(results_list):
                 case_name = terms[-1]
 
                 results_npy[indicator_name][case_name] = results_npy[indicator_name].get(case_name, OrderedDict())
-                results_npy[indicator_name][case_name][type_name] = np.load(result_path + test_log)
+                results_npy[indicator_name][case_name][type_name] = np.loadtxt(result_path + test_log,
+                                                                               skiprows=1,
+                                                                               delimiter=',',
+                                                                               dtype='float')[:, 1:]
+            else:
+                if "npy" in test_log:
+                    terms = test_log[:-4].split("_")
+
+                    indicator_name = terms[0] if "reward" in terms else "_".join(terms[:2])
+                    type_name = "none" if "none" in terms else terms[-2]
+                    case_name = terms[-1]
+
+                    results_npy[indicator_name][case_name] = results_npy[indicator_name].get(case_name, OrderedDict())
+                    results_npy[indicator_name][case_name][type_name] = np.load(result_path + test_log)
 
     for indicator_val in results_npy.values():
         for case_val in indicator_val.values():
@@ -116,10 +134,10 @@ def get_text(key):
 def plot_variance(plt, data, color, label):
 
     x = range(len(data[:, 0]))
-    plt.plot(x, data[:, 0], color=color, label=label)
+    plt.plot(x, data[:, 0], 'o-', color=color, label=label)
     y1 = np.asarray(data[:, 0]) + np.asarray(data[:, 1])
     y2 = np.asarray(data[:, 0]) - np.asarray(data[:, 1])
-    plt.fill_between(x, y1, y2, alpha=0.3, color=color)
+    plt.fill_between(x, y1, y2, alpha=0.2, color=color)
 
 def get_rewards_plot(plt, data):
 
@@ -146,7 +164,7 @@ def get_results_plot(data, case, min_case, max_case):
     width = 0.2
     num_net_type = 3
 
-    fig, ax1 = plt.subplots()
+    fig, ax1 = plt.subplots(figsize=args.window_size)
     ax2 = ax1.twinx()
 
     reward_data = data["reward"][case]
@@ -164,10 +182,10 @@ def get_results_plot(data, case, min_case, max_case):
         ax2.bar(x_new, success_data[net_type].flatten(), width, alpha=0.55, color=get_color(net_type), label=get_text(net_type))
 
     ax2.set_xticks(x, np.round(np.linspace(min_case, max_case, num_data), 2))
-    ax1.set_xlabel(get_text(case), fontsize=10.0, fontweight='bold')
-    ax1.set_ylabel(get_text("reward"), fontsize=10.0, fontweight='bold')
-    ax2.set_ylabel(get_text("success_rate"), fontsize=10.0, fontweight='bold')
-    ax2.legend(fontsize=10.0, prop=dict(weight='bold'))
+    ax1.set_xlabel(get_text(case), fontsize=args.label_size, fontweight='bold')
+    ax1.set_ylabel(get_text("reward"), fontsize=args.label_size, fontweight='bold')
+    ax2.set_ylabel(get_text("success_rate"), fontsize=args.label_size, fontweight='bold')
+    ax2.legend(fontsize=args.legend_size, prop=dict(weight='bold'))
 
 def get_selected_data(original_data):
 
@@ -217,18 +235,18 @@ def main():
                 if indicator != "success_rate":
                     get_rewards_plot(plt, result_data[indicator][case])
 
-                plt.xlabel(get_text(case), fontsize=10.0, fontweight='bold')
-                plt.ylabel(get_text(indicator), fontsize=10.0, fontweight='bold')
-                plt.legend(fontsize=10.0, prop=dict(weight='bold'))
+                plt.xlabel(get_text(case), fontsize=args.label_size, fontweight='bold')
+                plt.ylabel(get_text(indicator), fontsize=args.label_size, fontweight='bold')
+                plt.legend(fontsize=args.legend_size, prop=dict(weight='bold'))
             else:
                 if indicator == "model_error" and case == "noise":
-                    plt.figure()
+                    plt.figure(figsize=args.window_size)
                     plt.xticks(np.arange(num_data), np.round(np.linspace(min_case, max_case, num_data), 2))
                     get_rewards_plot(plt, result_data[indicator][case])
 
-                    plt.xlabel(get_text(case), fontsize=10.0, fontweight='bold')
-                    plt.ylabel(get_text(indicator), fontsize=10.0, fontweight='bold')
-                    plt.legend(fontsize=10.0, prop=dict(weight='bold'))
+                    plt.xlabel(get_text(case), fontsize=args.label_size, fontweight='bold')
+                    plt.ylabel(get_text(indicator), fontsize=args.label_size, fontweight='bold')
+                    plt.legend(fontsize=args.legend_size, prop=dict(weight='bold'))
                 elif indicator == "reward" and case != "noise":
                     get_results_plot(result_data, case, min_case, max_case)
                 else:
