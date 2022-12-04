@@ -4,16 +4,42 @@ from Common.Utils import *
 import numpy as np
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
+from collections import OrderedDict
 
 parser = argparse.ArgumentParser(description='Results integrated plot')
 
 parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help='base path of the current project')
-parser.add_argument("--env_name", "-en", default="Hopper-v4", type=str, help="the name of environment to show")
+parser.add_argument("--env_name", "-en", default="Ant-v4", type=str, help="the name of environment to show")
+parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
+parser.add_argument('--max_disturb', '-xd', default=40, type=float, help='hopper   : 20'
+                                                                         'walker2d : 40'
+                                                                         'ant      : 40'
+                                                                         'humanoid : 20')
+parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='')
+parser.add_argument('--max_uncertain', '-xu', default=30, type=float, help='hopper   : 20'
+                                                                           'walker2d : 60'
+                                                                           'ant      : 30'
+                                                                           'humanoid : 20')
+
+parser.add_argument('--max_noise', '-xn', default=0.1, type=float, help='max std of gaussian noise for state')
+parser.add_argument('--min_noise', '-nn', default=0.0, type=float, help='min std of gaussian noise for state')
 
 args = parser.parse_known_args()
 
 if len(args) != 1:
     args = args[0]
+
+legend_list = ["Only Policy network",
+               "Policy network with DNN-based DOB",
+               "Policy network with SBN-based DOB"]
+
+xlabel_list = ["Percentage of disturbance magnitude over action range [%]",
+               "Model uncertainty ratio [%]",
+               "Standard deviation of Gaussian noise"]
+
+ylabel_list = ["Average return over 100 times",
+               "Success ratio over 100 times",
+               "Mean square error of estimation error"]
 
 def get_env_file(results_list):
     specific_file = []
@@ -25,11 +51,11 @@ def get_env_file(results_list):
     return specific_file
 
 def find_each_results(results_list):
-    results_npy = {}
+    results_npy = OrderedDict()
 
-    results_npy["reward"] = {}
-    results_npy["success_rate"] = {}
-    results_npy["model_error"] = {}
+    results_npy["reward"] = OrderedDict()
+    results_npy["success_rate"] = OrderedDict()
+    results_npy["model_error"] = OrderedDict()
 
     for results in results_list:
         result_path = "./results/" + results + "/log/test/"
@@ -42,8 +68,15 @@ def find_each_results(results_list):
                 type_name = "none" if "none" in terms else terms[-2]
                 case_name = terms[-1]
 
-                results_npy[indicator_name][case_name] = results_npy[indicator_name].get(case_name, {})
+                results_npy[indicator_name][case_name] = results_npy[indicator_name].get(case_name, OrderedDict())
                 results_npy[indicator_name][case_name][type_name] = np.load(result_path + test_log)
+
+    for indicator_val in results_npy.values():
+        for case_val in indicator_val.values():
+            if "none" in case_val.keys():
+                case_val.move_to_end("none", False)
+            if "bnn" in case_val.keys():
+                case_val.move_to_end("bnn", True)
 
     return results_npy
 
@@ -54,6 +87,31 @@ def get_color(net_type):
         return "blue"
     else:
         return "black"
+
+def get_text(key):
+    # About Legend
+    if key == "none":
+        return legend_list[0]
+    elif key == "dnn":
+        return legend_list[1]
+    elif key == "bnn":
+        return legend_list[2]
+
+    # About X-label
+    elif key == "disturb":
+        return xlabel_list[0]
+    elif key == "uncertain":
+        return xlabel_list[1]
+    elif key == "noise":
+        return xlabel_list[2]
+
+    # About Y-label
+    elif key == "reward":
+        return ylabel_list[0]
+    elif key == "success_rate":
+        return ylabel_list[1]
+    elif key == "model_error":
+        return ylabel_list[2]
 
 def plot_variance(plt, data, color, label):
 
@@ -66,7 +124,7 @@ def plot_variance(plt, data, color, label):
 def get_rewards_plot(plt, data):
 
     for net_type in data.keys():
-        plot_variance(plt, data[net_type], color=get_color(net_type), label=net_type)
+        plot_variance(plt, data[net_type], color=get_color(net_type), label=get_text(net_type))
 
 def get_success_rate_plot(plt, data):
     global num_data
@@ -75,13 +133,41 @@ def get_success_rate_plot(plt, data):
     num_net_type = len(data.keys())
     for i, net_type in enumerate(data.keys()):
 
-        x = np.arange(num_data)  # the label locations
-
+        x = np.arange(num_data)
         x_new = x + (i-(num_net_type-1)/2)*width
-        rects = plt.bar(x_new, data[net_type].flatten(), width, color=get_color(net_type), label=net_type)
+        rects = plt.bar(x_new, data[net_type].flatten(), width, color=get_color(net_type), label=get_text(net_type))
         # plt.bar_label(rects, padding=3)
 
     # plt.tight_layout()
+
+def get_results_plot(data, case, min_case, max_case):
+    global num_data
+
+    width = 0.2
+    num_net_type = 3
+
+    fig, ax1 = plt.subplots()
+    ax2 = ax1.twinx()
+
+    reward_data = data["reward"][case]
+    success_data = data["success_rate"][case]
+    x = np.arange(num_data)  # the label locations
+
+    for i, net_type in enumerate(reward_data.keys()):
+
+        ax1.plot(x, reward_data[net_type][:, 0], 'o-', color=get_color(net_type), label=get_text(net_type))
+        y1 = np.asarray(reward_data[net_type][:, 0]) + np.asarray(reward_data[net_type][:, 1])
+        y2 = np.asarray(reward_data[net_type][:, 0]) - np.asarray(reward_data[net_type][:, 1])
+        ax1.fill_between(x, y1, y2, alpha=0.1, color=get_color(net_type))
+
+        x_new = x + (i-(num_net_type-1)/2)*width
+        ax2.bar(x_new, success_data[net_type].flatten(), width, alpha=0.55, color=get_color(net_type), label=get_text(net_type))
+
+    ax2.set_xticks(x, np.round(np.linspace(min_case, max_case, num_data), 2))
+    ax1.set_xlabel(get_text(case), fontsize=10.0, fontweight='bold')
+    ax1.set_ylabel(get_text("reward"), fontsize=10.0, fontweight='bold')
+    ax2.set_ylabel(get_text("success_rate"), fontsize=10.0, fontweight='bold')
+    ax2.legend(fontsize=10.0, prop=dict(weight='bold'))
 
 def get_selected_data(original_data):
 
@@ -111,32 +197,42 @@ def main():
                     (indicator != "model_error" and case == "noise"):
                 continue
 
-            plt.figure()
-            # plt.grid(True)
-
             if case == "disturb":
-                min_case = 0
-                max_case = 20
+                min_case = args.min_disturb
+                max_case = args.max_disturb
             elif case == "uncertain":
-                min_case = -80
-                max_case = 80
+                min_case = -args.max_uncertain
+                max_case = args.max_uncertain
             else:
-                min_case = 0
-                max_case = 0.1
+                min_case = args.min_noise
+                max_case = args.max_noise
 
-            plt.xticks(np.arange(num_data), np.round(np.linspace(min_case, max_case, num_data), 2))
-            # plt.xticks(np.round(np.linspace(min_case, max_case, int(num_data/4)+1), 2))
+            if args.each_plot:
+                plt.figure()
+                plt.xticks(np.arange(num_data), np.round(np.linspace(min_case, max_case, num_data), 2))
 
-            if indicator == "success_rate":
-                get_success_rate_plot(plt, result_data[indicator][case])
+                if indicator == "success_rate":
+                    get_success_rate_plot(plt, result_data[indicator][case])
 
-            if indicator != "success_rate":
-                get_rewards_plot(plt, result_data[indicator][case])
+                if indicator != "success_rate":
+                    get_rewards_plot(plt, result_data[indicator][case])
 
-            plt.ylabel(indicator, fontsize=14.0, fontweight='bold')
-            plt.title(case, fontsize=14.0, fontweight='bold')
-            plt.legend(fontsize=10.0, prop=dict(weight='bold'))
+                plt.xlabel(get_text(case), fontsize=10.0, fontweight='bold')
+                plt.ylabel(get_text(indicator), fontsize=10.0, fontweight='bold')
+                plt.legend(fontsize=10.0, prop=dict(weight='bold'))
+            else:
+                if indicator == "model_error" and case == "noise":
+                    plt.figure()
+                    plt.xticks(np.arange(num_data), np.round(np.linspace(min_case, max_case, num_data), 2))
+                    get_rewards_plot(plt, result_data[indicator][case])
 
+                    plt.xlabel(get_text(case), fontsize=10.0, fontweight='bold')
+                    plt.ylabel(get_text(indicator), fontsize=10.0, fontweight='bold')
+                    plt.legend(fontsize=10.0, prop=dict(weight='bold'))
+                elif indicator == "reward" and case != "noise":
+                    get_results_plot(result_data, case, min_case, max_case)
+                else:
+                    continue
     plt.show()
 
 if __name__ == '__main__':
