@@ -256,7 +256,7 @@ def main(args):
 
             elif args.which_kind == "uncertain":
                 random_ratio = (case - max_case/2)*2
-                env.unwrapped.model.geom_size = init_geom_size*(1 + random_ratio)
+                env.unwrapped.model.geom_size = init_geom_size*(1. + random_ratio)
                 print("uncertainty scale: ", random_ratio * 100, " percent of init property", file=result_txt)
                 print("uncertainty scale: ", random_ratio * 100, " percent of init property")
                 print("geom size : ", env.unwrapped.model.geom_size)
@@ -329,6 +329,9 @@ def main(args):
 
                     if done:
                         break
+
+                if episode_reward < 0:
+                    episode_reward = 0.
 
                 if step + 1 == env.spec.max_episode_steps and episode_reward > fail_score:
                     suc_reward += episode_reward
