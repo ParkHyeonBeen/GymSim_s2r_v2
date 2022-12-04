@@ -9,25 +9,27 @@ from collections import OrderedDict
 parser = argparse.ArgumentParser(description='Results integrated plot')
 
 parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help='base path of the current project')
-parser.add_argument("--env_name", "-en", default="Hopper-v4", type=str, help="the name of environment to show")
+parser.add_argument("--env_name", "-en", default="HalfCheetah-v4", type=str, help="the name of environment to show")
 parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
 parser.add_argument('--max_disturb', '-xd', default=40, type=float, help='hopper   : 20'
                                                                          'walker2d : 40'
                                                                          'ant      : 40'
-                                                                         'humanoid : 20')
+                                                                         'humanoid : 20'
+                                                                         'cheetah  : 100')
 parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='')
-parser.add_argument('--max_uncertain', '-xu', default=30, type=float, help='hopper   : 20'
+parser.add_argument('--max_uncertain', '-xu', default=50, type=float, help='hopper   : 20'
                                                                            'walker2d : 60'
                                                                            'ant      : 30'
-                                                                           'humanoid : 20')
+                                                                           'humanoid : 20'
+                                                                           'cheetah  : 50')
 
 parser.add_argument('--max_noise', '-xn', default=0.1, type=float, help='max std of gaussian noise for state')
 parser.add_argument('--min_noise', '-nn', default=0.0, type=float, help='min std of gaussian noise for state')
 
 parser.add_argument('--label_size', '-bs', default=15., type=float, help='XY label size')
 parser.add_argument('--legend_size', '-gs', default=10., type=float, help='Legend size')
-parser.add_argument('--window_size', '-ws', default=(9, 6), help='min std of gaussian noise for state')
+parser.add_argument('--window_size', '-ws', default=(10, 8), help='min std of gaussian noise for state')
 
 args = parser.parse_known_args()
 
