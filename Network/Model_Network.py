@@ -214,9 +214,9 @@ class InverseModelNetwork(nn.Module):
             print("BNN created")
 
             self.network = nn.Sequential(
-                nn_ard.LinearARD(in_features= self.state_dim*2, out_features=self.hidden_dim),
+                nn_ard.LinearARD(in_features=self.state_dim*2, out_features=self.hidden_dim),
                 nn.ReLU(),
-                nn_ard.LinearARD(in_features= self.hidden_dim, out_features=self.hidden_dim),
+                nn_ard.LinearARD(in_features=self.hidden_dim, out_features=self.hidden_dim),
                 nn.ReLU(),
                 nn_ard.LinearARD(in_features=self.hidden_dim, out_features=self.action_dim)
             )
