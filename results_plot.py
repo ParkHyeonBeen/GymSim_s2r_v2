@@ -9,7 +9,7 @@ from collections import OrderedDict
 parser = argparse.ArgumentParser(description='Results integrated plot')
 
 parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help='base path of the current project')
-parser.add_argument("--env_name", "-en", default="Hopper-v4", type=str, help="the name of environment to show")
+parser.add_argument("--env_name", "-en", default="HalfCheetah-v4", type=str, help="the name of environment to show")
 parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
 parser.add_argument('--max_disturb', '-xd', default=40, type=float, help='hopper   : 20'

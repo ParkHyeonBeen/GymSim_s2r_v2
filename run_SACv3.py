@@ -55,11 +55,11 @@ def hyperparameters(env_name="Hopper-v4"):
     parser.add_argument('--eval_step', '-es', default=5000, type=int, help='Frequency in performance evaluation')
     parser.add_argument('--max_step', '-ms', default=6e6, type=int, help='Maximum training step')
     parser.add_argument('--model_train_start_step', '-mtss', default=3e6, type=int)
-    parser.add_argument('--reg_weight', '-rw', default=5.0e-13, type=float, help='hopper   : 5.0e-13'
+    parser.add_argument('--reg_weight', '-rw', default=1.0e-13, type=float, help='hopper   : 5.0e-13'
                                                                                  'walker2d : 5.0e-13'
-                                                                                 'ant      : 5.0e-13'
+                                                                                 'ant      : 1.0e-13'
                                                                                  'humanoid : 5.0e-13'
-                                                                                 'cheetah  : 1.0e-12')
+                                                                                 'cheetah  : 1.0e-13')
 
     # estimate a model dynamics
     parser.add_argument('--develop-mode', '-dm', default='imn', help="none, mn, imn")
@@ -211,7 +211,7 @@ def main(args):
         np.random.seed(77)
 
         if env_name == "HalfCheetah-v4":
-            fail_score = 2 * 1183.44
+            fail_score = 4 * 1183.44
         elif env_name == "Ant-v4":
             fail_score = 2 * 647.3822
         else:
