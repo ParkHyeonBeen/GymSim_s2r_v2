@@ -45,7 +45,7 @@ xlabel_list = ["Percentage of disturbance magnitude over action range [%]",
                "Standard deviation of Gaussian noise"]
 
 ylabel_list = ["Average return over 100 times",
-               "Success ratio over 100 times",
+               "The number of success over 100 times",
                "Mean square error of estimation error"]
 
 def get_env_file(results_list):

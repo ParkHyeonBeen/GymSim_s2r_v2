@@ -310,12 +310,6 @@ def save_policy(policy, score_best, score_now, alive_rate, path):
     torch.save(policy.state_dict(), path + "/policy_current")
 
 def load_model(network, path, fname):
-    # print(path)
-    # print("-"*20)
-    # print(network)
-    # print("-" * 20)
-    # print(fname)
-    # print("-" * 20)
 
     if "model" in path:
         if "bnn" in fname:

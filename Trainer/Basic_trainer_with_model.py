@@ -33,7 +33,7 @@ def model_trainer(id, algorithm, rewards_queue, replay_buffer, model_path, args,
     Ant             : 647.3822
     """
     if args.env_name == "HalfCheetah-v4":
-        fail_score = 2 * 1183.44
+        fail_score = 4 * 1183.44
     elif args.env_name == "Ant-v4":
         fail_score = 2 * 647.3822
     else:
