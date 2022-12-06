@@ -12,7 +12,7 @@ parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help=
 parser.add_argument("--env_name", "-en", default="HalfCheetah-v4", type=str, help="the name of environment to show")
 parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
-parser.add_argument('--max_disturb', '-xd', default=40, type=float, help='hopper   : 20'
+parser.add_argument('--max_disturb', '-xd', default=100, type=float, help='hopper   : 20'
                                                                          'walker2d : 40'
                                                                          'ant      : 40'
                                                                          'humanoid : 20'
@@ -67,7 +67,11 @@ def find_each_results(results_list):
     for results in results_list:
         result_path = "./results/" + results + "/log/test/"
         test_log_list = os.listdir(result_path)
+        if "bnn" in test_log_list[0]:
+            get_sparsity(results)
+
         for test_log in test_log_list:
+
             if "csv" in test_log and args.from_csv is True:
                 terms = test_log[:-4].split("_")
 
@@ -196,6 +200,10 @@ def get_selected_data(original_data):
     new_data["reward"]["disturb"]["dnn"][:, 0] = new[new % 2 == 0]
 
     return new_data
+
+def get_sparsity(dir_name):
+    model_network = torch.load("./results/" + dir_name + "/network/model/bnn/best_bnn")
+    print('Sparsification ratio: %.3f%%' % (model_network["sparsity_ratio"]))
 
 def main():
     global num_data

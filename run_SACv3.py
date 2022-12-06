@@ -56,9 +56,9 @@ def hyperparameters(env_name="Hopper-v4"):
     parser.add_argument('--max_step', '-ms', default=6e6, type=int, help='Maximum training step')
     parser.add_argument('--model_train_start_step', '-mtss', default=3e6, type=int)
     parser.add_argument('--reg_weight', '-rw', default=1.0e-13, type=float, help='hopper   : 5.0e-13'
-                                                                                 'walker2d : 5.0e-13'
+                                                                                 'walker2d : 5.0e-12'
                                                                                  'ant      : 1.0e-13'
-                                                                                 'humanoid : 5.0e-13'
+                                                                                 'humanoid : 1.0e-13'
                                                                                  'cheetah  : 1.0e-13')
 
     # estimate a model dynamics
