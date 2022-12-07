@@ -55,11 +55,11 @@ def hyperparameters(env_name="Hopper-v4"):
     parser.add_argument('--eval_step', '-es', default=5000, type=int, help='Frequency in performance evaluation')
     parser.add_argument('--max_step', '-ms', default=6e6, type=int, help='Maximum training step')
     parser.add_argument('--model_train_start_step', '-mtss', default=3e6, type=int)
-    parser.add_argument('--reg_weight', '-rw', default=1.0e-13, type=float, help='hopper   : 5.0e-13'
+    parser.add_argument('--reg_weight', '-rw', default=5.0e-14, type=float, help='hopper   : 5.0e-13'
                                                                                  'walker2d : 5.0e-12'
                                                                                  'ant      : 5.0e-14'
                                                                                  'humanoid : 1.0e-13'
-                                                                                 'cheetah  : 1.0e-13')
+                                                                                 'cheetah  : 5.0e-14')
 
     # estimate a model dynamics
     parser.add_argument('--develop-mode', '-dm', default='imn', help="none, mn, imn")
@@ -241,6 +241,8 @@ def main(args):
             min_case = args.min_uncertain
             max_case = args.max_uncertain
             init_geom_size = deepcopy(env.unwrapped.model.geom_size)
+            init_body_mass = deepcopy(env.unwrapped.model.body_mass)
+            init_body_inertia = deepcopy(env.unwrapped.model.body_inertia)
         else:
             min_case = args.min_noise
             max_case = args.max_noise
@@ -261,6 +263,9 @@ def main(args):
             elif args.which_kind == "uncertain":
                 random_ratio = (case - max_case/2)*2
                 env.unwrapped.model.geom_size = init_geom_size*(1. + random_ratio)
+                env.unwrapped.model.body_mass = init_body_mass*(1. + random_ratio)
+                env.unwrapped.model.body_inertia = init_body_inertia*(1. + random_ratio)
+
                 print("uncertainty scale: ", random_ratio * 100, " percent of init property", file=result_txt)
                 print("uncertainty scale: ", random_ratio * 100, " percent of init property")
                 print("geom size : ", env.unwrapped.model.geom_size)

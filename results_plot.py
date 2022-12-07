@@ -18,7 +18,7 @@ parser.add_argument('--max_disturb', '-xd', default=100, type=float, help='hoppe
                                                                          'humanoid : 20'
                                                                          'cheetah  : 100')
 parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='')
-parser.add_argument('--max_uncertain', '-xu', default=50, type=float, help='hopper   : 20'
+parser.add_argument('--max_uncertain', '-xu', default=10, type=float, help='hopper   : 20'
                                                                            'walker2d : 60'
                                                                            'ant      : 30'
                                                                            'humanoid : 20'
