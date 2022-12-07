@@ -9,7 +9,7 @@ from collections import OrderedDict
 parser = argparse.ArgumentParser(description='Results integrated plot')
 
 parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help='base path of the current project')
-parser.add_argument("--env_name", "-en", default="Humanoid-v4", type=str, help="the name of environment to show")
+parser.add_argument("--env_name", "-en", default="Ant-v4", type=str, help="the name of environment to show")
 parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
 parser.add_argument('--max_disturb', '-xd', default=20, type=float, help='hopper   : 20'
@@ -18,6 +18,9 @@ parser.add_argument('--max_disturb', '-xd', default=20, type=float, help='hopper
                                                                          'humanoid : 20'
                                                                          'cheetah  : 100')
 parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='')
+
+parser.add_argument('--max_freq', '-xf', default=10, type=int, help='')
+
 parser.add_argument('--max_uncertain', '-xu', default=10, type=float, help='hopper   : 20'
                                                                            'walker2d : 60'
                                                                            'ant      : 30'
@@ -42,7 +45,8 @@ legend_list = ["Only Policy network",
 
 xlabel_list = ["Percentage of disturbance magnitude over action range [%]",
                "Model uncertainty ratio [%]",
-               "Standard deviation of Gaussian noise"]
+               "Standard deviation of Gaussian noise",
+               "The number of disturbance cycles during a episode"]
 
 ylabel_list = ["Average return over 100 times",
                "The number of success over 100 times",
@@ -129,6 +133,8 @@ def get_text(key):
         return xlabel_list[1]
     elif key == "noise":
         return xlabel_list[2]
+    elif key == "freq":
+        return xlabel_list[3]
 
     # About Y-label
     elif key == "reward":
@@ -229,6 +235,9 @@ def main():
             if case == "disturb":
                 min_case = args.min_disturb
                 max_case = args.max_disturb
+            elif case == "freq":
+                min_case = 0
+                max_case = args.max_freq
             elif case == "uncertain":
                 min_case = -args.max_uncertain
                 max_case = args.max_uncertain
