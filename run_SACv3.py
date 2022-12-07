@@ -37,15 +37,19 @@ def hyperparameters(env_name="Hopper-v4"):
 
     ## To make a uncertain system
     parser.add_argument('--num_case', '-nc', default=10, type=int, help='the number of cases in certain range')
-    parser.add_argument('--which_kind', '-wk', default='disturb', type=str, help='disturb, uncertain, noise')
+    parser.add_argument('--which_kind', '-wk', default='disturb', type=str, help='disturb, freq, uncertain, noise')
 
     parser.add_argument('--max_disturb', '-xd', default=0.2, type=float, help='max mag of disturbance for action')
     parser.add_argument('--min_disturb', '-nd', default=0.0, type=float, help='min mag of disturbance for action')
+
+    parser.add_argument('--max_freq', '-xf', default=10, type=int, help='max frequency of disturbance for action')
+    parser.add_argument('--min_freq', '-nf', default=0, type=int, help='min frequency of disturbance for action')
 
     parser.add_argument('--max_uncertain', '-xu', default=0.5, type=float,
                         help='max mag of uncertainty for model param')
     parser.add_argument('--min_uncertain', '-nu', default=0.0, type=float,
                         help='min mag of uncertainty for model param')
+
     parser.add_argument('--max_noise', '-xn', default=0.1, type=float, help='max std of gaussian noise for state')
     parser.add_argument('--min_noise', '-nn', default=0.0, type=float, help='min std of gaussian noise for state')
 
@@ -237,6 +241,9 @@ def main(args):
         if args.which_kind == "disturb":
             min_case = args.min_disturb
             max_case = args.max_disturb
+        elif args.which_kind == "freq":
+            min_case = args.min_freq
+            max_case = args.max_freq
         elif args.which_kind == "uncertain":
             min_case = args.min_uncertain
             max_case = args.max_uncertain
@@ -259,6 +266,15 @@ def main(args):
                 eval_success.get_xticks(np.round(case * 100, 3))
                 if args.model_on:
                     eval_model_error.get_xticks(np.round(case * 100, 3))
+
+            elif args.which_kind == "freq":
+                print("The number of cycles: ", int(case), " during a episode", file=result_txt)
+                print("The number of cycles: ", int(case), " during a episode")
+
+                eval_reward.get_xticks(int(case))
+                eval_success.get_xticks(int(case))
+                if args.model_on:
+                    eval_model_error.get_xticks(int(case))
 
             elif args.which_kind == "uncertain":
                 random_ratio = (case - max_case/2)*2
@@ -309,7 +325,12 @@ def main(args):
                         if args.which_kind == "disturb":
                             env_action = add_disturbance(env_action, step, env.spec.max_episode_steps,
                                                          scale=case,
-                                                         frequency=4)
+                                                         frequency=2)
+
+                        if args.which_kind == "freq":
+                            env_action = add_disturbance(env_action, step, env.spec.max_episode_steps,
+                                                         scale=0.1,
+                                                         frequency=case)
 
                         next_observation, reward, done, _ = env.step(env_action)
 
@@ -328,7 +349,12 @@ def main(args):
                         if args.which_kind == "disturb":
                             env_action = add_disturbance(env_action, step, env.spec.max_episode_steps,
                                                          scale=case,
-                                                         frequency=4)
+                                                         frequency=2)
+                        if args.which_kind == "freq":
+                            env_action = add_disturbance(env_action, step, env.spec.max_episode_steps,
+                                                         scale=0.1,
+                                                         frequency=case)
+
                         next_observation, reward, done, _ = env.step(env_action)
 
                     episode_reward += reward

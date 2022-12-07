@@ -12,7 +12,7 @@ parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help=
 parser.add_argument("--env_name", "-en", default="Humanoid-v4", type=str, help="the name of environment to show")
 parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
-parser.add_argument('--max_disturb', '-xd', default=100, type=float, help='hopper   : 20'
+parser.add_argument('--max_disturb', '-xd', default=20, type=float, help='hopper   : 20'
                                                                          'walker2d : 40'
                                                                          'ant      : 40'
                                                                          'humanoid : 20'

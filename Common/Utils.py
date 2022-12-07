@@ -206,12 +206,12 @@ def add_noise(val, scale = 0.1):
     return val
 
 
-def add_disturbance(val, step, terminal_time, scale=0.1, frequency=4):
+def add_disturbance(val, step, terminal_time, scale=0.1, frequency=2):
 
     for i in range(len(val)):
-        val[i] += scale*math.sin((frequency*math.pi / terminal_time)*step)
+        val[i] += scale*math.sin(frequency*(2*math.pi / terminal_time)*step)
 
-    if scale > 0.01:
+    if scale > 0.01 and frequency != 0:
         if type(val) is torch.Tensor:
             val += 0.01*torch.normal(mean=torch.zeros_like(val), std=torch.ones_like(val))
         else:
