@@ -12,7 +12,7 @@ parser.add_argument('--base_path', default="/home/phb/ETRI/GymSim_s2r_2/", help=
 parser.add_argument("--env_name", "-en", default="Ant-v4", type=str, help="the name of environment to show")
 parser.add_argument("--from_csv", "-fc", default="True", type=str2bool, help="If True, you will get the results from csv file")
 parser.add_argument("--each_plot", "-ep", default="False", type=str2bool, help="If True, we can get each plots")
-parser.add_argument('--max_disturb', '-xd', default=20, type=float, help='hopper   : 20'
+parser.add_argument('--max_disturb', '-xd', default=40, type=float, help='hopper   : 20'
                                                                          'walker2d : 40'
                                                                          'ant      : 40'
                                                                          'humanoid : 20'
@@ -194,7 +194,10 @@ def get_results_plot(data, case, min_case, max_case):
         x_new = x + (i-(num_net_type-1)/2)*width
         ax2.bar(x_new, success_data[net_type].flatten(), width, alpha=0.55, color=get_color(net_type), label=get_text(net_type))
 
-    ax2.set_xticks(x, np.round(np.linspace(min_case, max_case, num_data), 2))
+    if case == "freq":
+        ax2.set_xticks(x, np.arange(min_case, max_case+1))
+    else:
+        ax2.set_xticks(x, np.round(np.linspace(min_case, max_case, num_data), 2))
     ax1.set_xlabel(get_text(case), fontsize=args.label_size, fontweight='bold')
     ax1.set_ylabel(get_text("reward"), fontsize=args.label_size, fontweight='bold')
     ax2.set_ylabel(get_text("success_rate"), fontsize=args.label_size, fontweight='bold')

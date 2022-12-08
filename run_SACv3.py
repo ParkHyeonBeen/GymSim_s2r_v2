@@ -352,7 +352,7 @@ def main(args):
                                                          frequency=2)
                         if args.which_kind == "freq":
                             env_action = add_disturbance(env_action, step, env.spec.max_episode_steps,
-                                                         scale=0.1,
+                                                         scale=0.2,
                                                          frequency=case)
 
                         next_observation, reward, done, _ = env.step(env_action)
